@@ -11,6 +11,9 @@
 <!-- TemplateBeginEditable name="doctitle" -->
 <title>Levi Patel</title>
 <!-- TemplateEndEditable -->
+<link rel="shortcut icon" href="favicon.png" type="image/png">
+<link rel="shortcut icon" type="image/png" href="http://levipatel.com/favicon.png" />
+
 <link href="../boilerplate.css" rel="stylesheet" type="text/css">
 <link href="../styles.css" rel="stylesheet" type="text/css">
 <!-- 
