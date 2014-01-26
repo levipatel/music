@@ -66,6 +66,7 @@ div.textBG {
 	width: 100%;
 	padding:20px;
 	background: rgba(255, 255, 255, 0.7);
+	overflow: auto;
 }
 
 #artlist {
@@ -85,6 +86,9 @@ div.textBG {
 }
 #mainheader {
 	background-color: rgba(255,255,255,0.70);
+	position: relative;
+	top: 0;
+	overflow: hidden;
 }
 #mainnav {
 	background-color: rgba(255,255,255,0.70);
@@ -92,15 +96,19 @@ div.textBG {
 #sidecontent {
 	bottom: 0;
 	background-color: rgba(255,255,255,0.70);
+	display:none;
 }
 #mainsection {
 	clear: both;
 	margin-left: 0;
+	width: 88%;
 }
 #footer {
+	bottom: 0;
+	position: fixed;
+	color: #FFFFFF;
 }
-#menusystem {
-}
+
 .menuitem {
 	text-align: center;
 	width: 10%;
@@ -112,6 +120,17 @@ div.textBG {
 	clear: right;
     background-color: rgba(255,255,255,0.80);
 }
+
+.navmenuitem {
+	text-align: center;
+	width: 95px;
+	clear: right;
+}
+
+#currentnav {
+	background-color: rgba(255,255,255,0.80);
+}
+
 #clear {
 	padding-top: 23px;
 }
@@ -148,10 +167,10 @@ a:active {
 }
 .art {
 	clear: right;
-	padding-top: 20px;
-	padding-right: 20px;
-	padding-bottom: 20px;
-	padding-left: 20px;
+	padding-top: 2%;
+	padding-right: 2%;
+	padding-bottom: 2%;
+	padding-left: 2%;
 	width: 45%;
 }
 .art-intext {
@@ -177,7 +196,12 @@ margin-left: 0;
 .hide_mobile {
 display: none;
 }
-
+#logo {
+	width:26%;
+}
+#mc_embed_signup {
+	width: 100%;
+}
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
 
@@ -189,26 +213,25 @@ display: none;
 	padding-right: 1.1625%;
 	clear: none;
 	float: none;
-	margin-left: auto;
+	margin: auto;
 }
-#mainheader {
-}
-#mainnav {
-}
+
 #sidecontent {
-width: 100%;
+width: 15%;
+display: none;
 }
 #mainsection {
-width: 100%;
+width: 90%;
 clear: both;
 margin-left: 0;
 }
 #footer {
 }
-#menusystem {
+#contact {
+	-webkit-transform:rotate(90deg)
 }
-.menuitem {
-}
+
+
 .bandcamp {
 }
 .song {
@@ -223,11 +246,18 @@ display: none;
 .zeroMargin_tablet {
 margin-left: 0;
 }
+#mce-EMAIL {
+	width: 97%;
+}
 }
 
 /* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 810px) {
+
+	#contact {
+	-webkit-transform:rotate(0deg)
+}
 
 .gridContainer {
 	width: 88.5%;
@@ -239,18 +269,14 @@ margin-left: 0;
 	float: none;
 	margin-left: auto;
 }
-#mainheader {
-	background-color: #FFFFFF;
-	position: relative;
-	top: 0;
-}
-#mainnav {
-}
+
 #sidecontent {
-	width: 187px;
+	width: 15%;
+	max-width: 170px;
 	padding-top: 50px;
 	padding-left: 10px;
 	padding-right: 10px;
+	display:inline
 }
 #mainsection {
 	width: 70%;
@@ -260,13 +286,7 @@ margin-left: 0;
 	padding-top: 20px;
 	background-color: undefined;
 }
-#footer {
-	bottom: 0;
-	position: fixed;
-	color: #FFFFFF;
-}
-#menusystem {
-}
+
 .bandcamp {
 }
 .song {
@@ -283,5 +303,8 @@ margin-left: 0;
 }
 .hide_desktop {
 display: none;
+}
+#logo {
+	width:198px;
 }
 }

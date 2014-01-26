@@ -43,13 +43,13 @@ Do the following if you're using your customized build of modernizr (http://www.
 <!-- TemplateBeginEditable name="head" -->
 
 
-<!-- TemplateEndEditable -->
+
 
 </head>
 <body>
 
 
-<header id="mainheader" class="fluid"><img src="images/levipatellogo.jpg" alt=""/>
+<header id="mainheader" class="fluid"><div id="logo"><img width="100%" src="images/levipatellogo.jpg" alt=""/></div>
   <a href="https://www.facebook.com/LeviPatelMusic"><img src="images/facebookicon.jpg" width="36" height="36" align="right" alt=""/></a>
   <a href="https://twitter.com/LeviPatel"><img src="images/twittericon.jpg" width="36" height="36" align="right" alt=""/></a>
   <a href="http://soundcloud.com/levipatel"><img src="images/soundcloudicon.jpg" width="36" height="36" align="right" alt=""/></a>
@@ -73,6 +73,8 @@ Do the following if you're using your customized build of modernizr (http://www.
   <p><img src="../images/levipatel-s.jpg"  style="width:170px" alt=""/></p>
   <p>Contact: 
  levi@levipatel.com</p>
+ 
+ <!-- TemplateEndEditable -->
 
     <p></p><!-- Begin MailChimp Signup Form -->
 <div id="mc_embed_signup">
