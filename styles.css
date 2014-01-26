@@ -163,18 +163,15 @@ div.textBG {
 }
 a:link{
 	color: #6E6E6E;
-	text-decoration: none;
 }
 a:visited {
 	color: #6E6E6E;
-	text-decoration: none;
 }
 a:hover {
 	color: #A4A4A4;
 }
 a:active {
 	color: #A4A4A4;
-	text-decoration: none;
 }
 a {
 	color: #000000;
