@@ -49,7 +49,12 @@ Do the following if you're using your customized build of modernizr (http://www.
 <body>
 
 
-<header id="mainheader" class="fluid"><img src="../images/levipatellogo.jpg" alt=""/><a href="https://www.facebook.com/LeviPatelMusic"><img src="../images/facebookicon.jpg" width="36" height="36" align="right" alt=""/></a><a href="https://twitter.com/LeviPatel"><img src="../images/twittericon.jpg" width="36" height="36" align="right" alt=""/></a> <a href="http://soundcloud.com/levipatel"><img src="../images/soundcloudicon.jpg" width="36" height="36" align="right" alt=""/></a> <a href="http://www.themusicbed.com/#!/artist/Levi-Patel-34615/"><img src="../images/themusicbedicon.jpg" width="36" height="36" align="right" alt=""/></a><a href="http://levipatel.bandcamp.com"><img src="../images/bandcampicon.jpg" width="36" height="36"  align="right" alt=""/></a>
+<header id="mainheader" class="fluid"><img src="images/levipatellogo.jpg" alt=""/>
+  <a href="https://www.facebook.com/LeviPatelMusic"><img src="images/facebookicon.jpg" width="36" height="36" align="right" alt=""/></a>
+  <a href="https://twitter.com/LeviPatel"><img src="images/twittericon.jpg" width="36" height="36" align="right" alt=""/></a>
+  <a href="http://soundcloud.com/levipatel"><img src="images/soundcloudicon.jpg" width="36" height="36" align="right" alt=""/></a>
+  <a href="http://www.themusicbed.com/#!/artist/Levi-Patel-34615/"><img src="images/themusicbedicon.jpg" width="36" height="36" align="right" alt=""/></a>
+<a href="http://levipatel.bandcamp.com"><img src="../images/bandcampicon.png" width="36" height="36"  align="right" alt=""/></a>
 </header>
 <nav id="mainnav" class="fluid"><ul id="menusystem" class="fluid fluidList">
   <li class="fluid menuitem"><a href="../index.html" title="Home">HOME</a></li>
