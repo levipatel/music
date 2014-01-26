@@ -176,6 +176,10 @@ a:active {
 	color: #A4A4A4;
 	text-decoration: none;
 }
+a {
+	color: #000000;
+	text-decoration: none;
+}
 .gridContainer.clearfix {
 	width: 100%;
 	min-height: 0px;
