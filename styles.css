@@ -152,23 +152,35 @@ div.textBG {
 	width: 10%;
 	clear: right;
 }
+.currentmenuitem {
+	text-align: center;
+	width: 10%;
+	clear: right;
+    background-color: rgba(224,224,224,0.10);
+}
 #clear {
 	padding-top: 23px;
 }
-a:hover {
-	color: #373737;
+a:link{
+	color: #6E6E6E;
+	text-decoration: none;
 }
-a {
-	color: #000000;
+a:visited {
+	color: #6E6E6E;
+	text-decoration: none;
+}
+a:hover {
+	color: #A4A4A4;
+}
+a:active {
+	color: #A4A4A4;
 	text-decoration: none;
 }
 .gridContainer.clearfix {
 	width: 100%;
 	min-height: 0px;
 }
-a:visited {
-	color: rgba(0,0,0,1.00);
-}
+
 .bandcamp {
 }
 .song {
@@ -209,6 +221,7 @@ margin-left: 0;
 .hide_mobile {
 display: none;
 }
+
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
 
