@@ -64,6 +64,7 @@ Do the following if you're using your customized build of modernizr (http://www.
   <li class="fluid menuitem"><a href="../filmandtv.html" title="Film and TV">FILM/TV</a></li>
   <li class="fluid menuitem"><a href="../artwork.html" title="Artwork">ARTWORK</a></li>
   <li class="fluid menuitem"><a href="../about.html" title="About">ABOUT</a></li>
+  <li class="fluid menuitem" id="contactnav"><a href="contact.html" title="Contact">CONTACT</a></li>
 </ul></nav>
 
 

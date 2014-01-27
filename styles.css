@@ -123,7 +123,7 @@ div.textBG {
 
 .navmenuitem {
 	text-align: center;
-	width: 95px;
+	width: 105px;
 	clear: right;
 }
 
@@ -197,10 +197,18 @@ margin-left: 0;
 display: none;
 }
 #logo {
-	width:26%;
+	width:38%;
+	max-width: 198px;
 }
 #mc_embed_signup {
 	width: 100%;
+}
+#contactnav {
+	display: inline;
+}
+#mce-EMAIL {
+	width: 97%;
+	max-width: 250px;
 }
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
@@ -246,17 +254,18 @@ display: none;
 .zeroMargin_tablet {
 margin-left: 0;
 }
-#mce-EMAIL {
-	width: 97%;
-}
+
 }
 
 /* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
 
-@media only screen and (min-width: 810px) {
+@media only screen and (min-width: 820px) {
 
-	#contact {
+#contact {
 	-webkit-transform:rotate(0deg)
+}
+#contactnav {
+	display: none;
 }
 
 .gridContainer {
