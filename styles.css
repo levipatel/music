@@ -86,6 +86,127 @@ div.videoContainer {
 	*/
 }
 
+
+
+
+
+/* Mobile version of the drop down meny */
+#dropdownmobile	{
+	width: 100%; /* Spans the width of the page */
+	height: 30px; 
+	margin-left: 0;
+	margin-left: 0;
+	margin: 0; /* Ensures there is no space between sides of the screen and the menu */
+	z-index: 999999; /* Makes sure that your menu remains on top of other page elements */
+	position: relative; 
+	background-color: transparent;
+}
+.navbar	{
+	height: 30px;
+	padding: 0;
+	margin: 0;
+	position: relative; /* Ensures that the menu doesn’t affect other elements if absolute */
+}
+.navbar li ul 	{
+		display: none;  /* Hides the drop-down menu */
+		height: auto;									
+		margin: 0; /* Aligns drop-down box underneath the menu item */
+		padding: 0; /* Aligns drop-down box underneath the menu item */	
+		width: inherit;	
+		position: absolute;	
+		}				
+.navbar li ul li a 	{
+		/*border-left: 1px solid rgba(0, 0, 0, 0.1);
+		border-right: 1px solid rgba(0, 0, 0, 0.1);*/
+		border-top: 1px solid rgba(0, 0, 0, 0.1);
+		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+		}
+.navbar li:hover ul 	{
+                        display: block; /* Displays the drop-down box when the menu item is hovered over */
+                        }
+.navbar a	{							
+		padding: 2px 0;  /* Adds a padding on the top and bottom so the text appears centered vertically */
+		border-left: 1px solid rgba(0, 0, 0, 0.1); /* Creates a border in a slightly lighter shade of blue than the background.  Combined with the right border, this creates a nice effect. */
+		border-right: 1px solid rgba(0, 0, 0, 0.1); /* Creates a border in a slightly darker shade of blue than the background.  Combined with the left border, this creates a nice effect. */
+		text-decoration: none;  /* Removes the default hyperlink styling. */
+		display: block;
+		font-size: 0.8em;
+		}
+.navbar li 	{
+	height: auto;
+	width: 33.333%;  /* Each menu item is 150px wide */
+	float: left;  /* This lines up the menu items horizontally */
+	text-align: center;  /* All text is placed in the center of the box */
+	list-style: none;  /* Removes the default styling (bullets) for the list */
+	padding: 0;
+	margin: 0;
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+
+
+
+
+/* Tablet version of the drop down meny */
+#dropdowntablet	{
+	width: 100%; /* Spans the width of the page */
+	height: 30px; 
+	margin-left: 0;
+	margin-left: 0;
+	margin: 0; /* Ensures there is no space between sides of the screen and the menu */
+	z-index: 999999; /* Makes sure that your menu remains on top of other page elements */
+	position: relative; 
+	background-color: transparent;
+	display: none;
+}
+.navbartablet	{
+	height: 30px;
+	padding: 0;
+	margin: 0;
+	position: relative; /* Ensures that the menu doesn’t affect other elements if absolute */
+}
+.navbartablet li ul 	{
+		display: none;  /* Hides the drop-down menu */
+		height: auto;									
+		margin: 0; /* Aligns drop-down box underneath the menu item */
+		padding: 0; /* Aligns drop-down box underneath the menu item */	
+		width: inherit;	
+		position: absolute;	
+		}				
+.navbartablet li ul li a 	{
+		/*border-left: 1px solid rgba(0, 0, 0, 0.1);
+		border-right: 1px solid rgba(0, 0, 0, 0.1);*/
+		border-top: 1px solid rgba(0, 0, 0, 0.1);
+		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+		}
+.navbartablet li:hover ul 	{
+                        display: block; /* Displays the drop-down box when the menu item is hovered over */
+                        }
+.navbartablet a	{							
+		padding: 2px 0;  /* Adds a padding on the top and bottom so the text appears centered vertically */
+		border-left: 1px solid rgba(0, 0, 0, 0.1); /* Creates a border in a slightly lighter shade of blue than the background.  Combined with the right border, this creates a nice effect. */
+		border-right: 1px solid rgba(0, 0, 0, 0.1); /* Creates a border in a slightly darker shade of blue than the background.  Combined with the left border, this creates a nice effect. */
+		text-decoration: none;  /* Removes the default hyperlink styling. */
+		display: block;
+		font-size: 0.9em;
+		}
+.navbartablet li 	{
+	height: auto;
+	width: 25%;  /* Each menu item is 150px wide */
+	float: left;  /* This lines up the menu items horizontally */
+	text-align: center;  /* All text is placed in the center of the box */
+	list-style: none;  /* Removes the default styling (bullets) for the list */
+	padding: 0;
+	margin: 0;
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+
+
+
+
+
+
 div.textBG {
 	padding:3%;
 	background: rgba(255, 255, 255, 0.7);
@@ -154,9 +275,9 @@ div.textBG {
 .navmenuitem {
 	text-align: left;
 	padding-left: 40px;
-	width: 10%;
-	min-width: 82px;
-	max-width: 100px;
+	width: 7%;
+	min-width: 50px;
+	max-width: 90px;
 	clear: right;
 }
 
@@ -246,12 +367,23 @@ display: none;
 	width: 97%;
 	max-width: 250px;
 }
+#mainnav {
+	display: none;
+}
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
 
 @media only screen and (min-width: 481px) {
 
-
+#dropdownmobile {
+	display: none;
+}
+#dropdowntablet {
+	display: block;
+}
+#mainnav {
+	display: none;
+}
 .musicWrapper {
 	position: relative;
 	padding-bottom: 140%;
@@ -329,7 +461,15 @@ margin-left: 0;
 
 @media only screen and (min-width: 814px) {
 
-
+#dropdownmobile {
+	display: none;
+}
+#dropdowntablet {
+	display: none;
+}
+#mainnav {
+	display: inline;
+}
 .musicWrapper {
 	position: relative;
 	padding-bottom: 120%;
