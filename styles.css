@@ -85,19 +85,36 @@ div.videoContainer {
 	max-height: 442px;
 	*/
 }
+h2 {
+	/* text-transform: uppercase; */
+}
+#icons {
+    position: relative;
+    float: right;
+    top: 0.5em;
+    right: 0.1em;
+    display: block;
+    width: 58%;
+    max-width: 180px;
+}
+.icon {
+	width: 20%;
+	height: 20%;
+	max-width: 36px;
+	max-height: 36px;
+}
 
 
 
 
-
-/* Mobile version of the drop down meny */
+/* Mobile version of the drop down menu */
 #dropdownmobile	{
-	width: 100%; /* Spans the width of the page */
+	width: 100%;
 	height: 30px; 
 	margin-left: 0;
 	margin-left: 0;
-	margin: 0; /* Ensures there is no space between sides of the screen and the menu */
-	z-index: 999999; /* Makes sure that your menu remains on top of other page elements */
+	margin: 0; /* space between sides of the screen and the menu */
+	z-index: 999999;
 	position: relative; 
 	background-color: transparent;
 }
@@ -105,13 +122,13 @@ div.videoContainer {
 	height: 30px;
 	padding: 0;
 	margin: 0;
-	position: relative; /* Ensures that the menu doesn’t affect other elements if absolute */
+	position: relative;
 }
 .navbar li ul 	{
-		display: none;  /* Hides the drop-down menu */
+		display: none;  /* Hides the drop-down items */
 		height: auto;									
-		margin: 0; /* Aligns drop-down box underneath the menu item */
-		padding: 0; /* Aligns drop-down box underneath the menu item */	
+		margin: 0;
+		padding: 0;
 		width: inherit;	
 		position: absolute;	
 		}				
@@ -125,7 +142,7 @@ div.videoContainer {
                         display: block; /* Displays the drop-down box when the menu item is hovered over */
                         }
 .navbar a	{							
-		padding: 2px 0;  /* Adds a padding on the top and bottom so the text appears centered vertically */
+		padding: 6px 0;  /* Adds a padding on the top and bottom so the text appears centered vertically */
 		border-left: 1px solid rgba(0, 0, 0, 0.1); /* Creates a border in a slightly lighter shade of blue than the background.  Combined with the right border, this creates a nice effect. */
 		border-right: 1px solid rgba(0, 0, 0, 0.1); /* Creates a border in a slightly darker shade of blue than the background.  Combined with the left border, this creates a nice effect. */
 		text-decoration: none;  /* Removes the default hyperlink styling. */
@@ -150,7 +167,7 @@ div.videoContainer {
 /* Tablet version of the drop down meny */
 #dropdowntablet	{
 	width: 100%; /* Spans the width of the page */
-	height: 30px; 
+	height: 40px; 
 	margin-left: 0;
 	margin-left: 0;
 	margin: 0; /* Ensures there is no space between sides of the screen and the menu */
@@ -160,7 +177,7 @@ div.videoContainer {
 	display: none;
 }
 .navbartablet	{
-	height: 30px;
+	height: 40px;
 	padding: 0;
 	margin: 0;
 	position: relative; /* Ensures that the menu doesn’t affect other elements if absolute */
@@ -183,12 +200,12 @@ div.videoContainer {
                         display: block; /* Displays the drop-down box when the menu item is hovered over */
                         }
 .navbartablet a	{							
-		padding: 2px 0;  /* Adds a padding on the top and bottom so the text appears centered vertically */
+		padding: 10px 0;  /* Adds a padding on the top and bottom so the text appears centered vertically */
 		border-left: 1px solid rgba(0, 0, 0, 0.1); /* Creates a border in a slightly lighter shade of blue than the background.  Combined with the right border, this creates a nice effect. */
 		border-right: 1px solid rgba(0, 0, 0, 0.1); /* Creates a border in a slightly darker shade of blue than the background.  Combined with the left border, this creates a nice effect. */
 		text-decoration: none;  /* Removes the default hyperlink styling. */
 		display: block;
-		font-size: 0.9em;
+		font-size: 1em;
 		}
 .navbartablet li 	{
 	height: auto;
@@ -358,11 +375,7 @@ display: none;
 #mc_embed_signup {
 	width: 100%;
 }
-/*
-#contactnav {
-	display: inline;
-}
-*/
+
 #mce-EMAIL {
 	width: 97%;
 	max-width: 250px;
@@ -375,6 +388,10 @@ display: none;
 
 @media only screen and (min-width: 481px) {
 
+#icons {
+	top: 2em;
+    right: 2em;
+}
 #dropdownmobile {
 	display: none;
 }
@@ -461,6 +478,10 @@ margin-left: 0;
 
 @media only screen and (min-width: 814px) {
 
+#icons {
+	top: 2em;
+    right: 2em;
+}
 #dropdownmobile {
 	display: none;
 }
@@ -496,11 +517,6 @@ div.videoContainer {
 	padding-bottom: 15px;
 	}
 
-/*
-#contactnav {
-	display: none;
-}
-*/
 
 .gridContainer {
 	width: 88.5%;
