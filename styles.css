@@ -391,6 +391,11 @@ display: none;
 #icons {
 	top: 2em;
     right: 2em;
+ 	max-width: 250px;
+}
+.icon {
+	padding-left: 2px;
+	padding-right: 2px;
 }
 #dropdownmobile {
 	display: none;
@@ -481,6 +486,11 @@ margin-left: 0;
 #icons {
 	top: 2em;
     right: 2em;
+    max-width: 260px;
+}
+.icon {
+	padding-left: 5px;
+	padding-right: 5px;
 }
 #dropdownmobile {
 	display: none;
