@@ -148,6 +148,7 @@ h2 {
 		text-decoration: none;  /* Removes the default hyperlink styling. */
 		display: block;
 		font-size: 0.8em;
+		font-style: normal;
 		}
 .navbar li 	{
 	height: auto;
@@ -206,6 +207,7 @@ h2 {
 		text-decoration: none;  /* Removes the default hyperlink styling. */
 		display: block;
 		font-size: 1em;
+		font-style: normal;
 		}
 .navbartablet li 	{
 	height: auto;
@@ -240,6 +242,7 @@ div.textBG {
   
 .navfont {
 	font-size: 0.8em;
+	font-style: normal;
 }
 .gridContainer {
 	margin-left: auto;
@@ -310,6 +313,7 @@ div.textBG {
 a {
 	color: #000000;
 	text-decoration: underline;
+	font-style: italic;
 }
 a:link{
 	color: #000000;
