@@ -1,7 +1,4 @@
-Options +FollowSymlinks
 RewriteEngine on
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^(.*)([^/])$        /$1$2/ [L,R=301]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule .*[^/]$ %{REQUEST_URI}/ [L,R=301]
 RewriteCond %{REQUEST_FILENAME}.html -f
