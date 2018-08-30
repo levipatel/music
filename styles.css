@@ -451,6 +451,10 @@ div.videoContainer {
 	margin-right: 1%;
 	margin-left: 1%;
 	}
+div.videoContainer p {
+	padding-left: 20px;
+	padding-right: 20px;
+}
 .gridContainer {
 	width: 90.675%;
 	clear: none;
