@@ -20,10 +20,6 @@
 <link href="boilerplate.css" rel="stylesheet" type="text/css">
 <link href="styles.css" rel="stylesheet" type="text/css">
 
-<!-- Moved fancybox CSS earlier to speed up loading -->
- <link rel="stylesheet" type="text/css" href="fbsource/jquery.fancybox.css?v=2.1.5" media="screen" />
-   <link rel="stylesheet" type="text/css" href="fbsource/helpers/jquery.fancybox-buttons.css?v=1.0.5" />
-     <link rel="stylesheet" type="text/css" href="fbsource/helpers/jquery.fancybox-thumbs.css?v=1.0.7" />
 <!-- 
 To learn more about the conditional comments around the html tags at the top of the file:
 paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
@@ -39,66 +35,6 @@ Do the following if you're using your customized build of modernizr (http://www.
 <![endif]-->
 <script src="respond.min.js"></script>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
-
-<!-- Add jQuery library -->
-  <script type="text/javascript" src="fblib/jquery-1.10.1.min.js"></script>
-<!-- Add mousewheel plugin (this is optional) -->
-  <script type="text/javascript" src="fblib/jquery.mousewheel-3.0.6.pack.js"></script>
-
-  <!-- Add fancyBox main JS and CSS files -->
-  <script type="text/javascript" src="fbsource/jquery.fancybox.js?v=2.1.5"></script>
-
-<!-- Add Button helper (this is optional) -->
-  <script type="text/javascript" src="fbsource/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
-
-  <!-- Add Thumbnail helper (this is optional) -->
-  <script type="text/javascript" src="fbsource/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
-
-  <!-- Add Media helper (this is optional) -->
-  <script type="text/javascript" src="fbsource/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
-
-  <script type="text/javascript">
-  $(document).ready(function() {
-
-      $(".fancybox-levi")
-        .attr('rel', 'gallery')
-        .fancybox({
-
-          padding : 0,
-          arrows    : false,
-          nextClick : true,
-          closeBtn  : false,
-          openEffect : 'fade',
-          padding : [0,0,0,0],
-
-          helpers:  {
-            title : {
-              type : 'inside'
-            },
-          },
-      });
-
-
-        $(".fancybox-levi-notitle")
-        .attr('rel', 'gallery')
-        .fancybox({
-
-          padding : 0,
-          arrows    : false,
-          nextClick : true,
-          closeBtn  : false,
-          openEffect : 'fade',
-          padding : [0,0,0,0],
-
-          helpers:  {
-            title : null
-          }
-
-      });
-    });
-
-  </script>
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -108,15 +44,7 @@ Do the following if you're using your customized build of modernizr (http://www.
   ga('create', 'UA-39185322-2', 'levipatel.com');
   ga('send', 'pageview');
 </script>
-  <style type="text/css">
-    .fancybox-custom .fancybox-skin {
-      box-shadow: 0 0 50px #222;
-    }
 
-    body {
-      margin: 0 auto;
-    }
-  </style>
 </head>
 <body>
 
@@ -198,7 +126,7 @@ Do the following if you're using your customized build of modernizr (http://www.
 
 
 <aside id="sidecontent" class="fluid">
-   <p><a class="fancybox-levi-notitle" rel="group" title="Levi Patel" alt="Levi Patel" href="images/levipatel30.jpg"><img src="images/levipatel30-s.jpg" style="width:100%" alt="Levi Patel portrait photograph" /></a></p>
+   <p><img src="images/levipatel30-s.jpg" style="width:100%" alt="Levi Patel portrait photograph" /></p>
   <div id="contact"><p>Contact: 
  levi@levipatel.com</p>
 
@@ -254,21 +182,6 @@ Do the following if you're using your customized build of modernizr (http://www.
 <section id="mainsection" class="fluid">
 
   <p></p>
-
-<!--
-  <div class="textBG">
-      <h2>Gala - Single Recording and Production</h2>
-
-    <div class="videoWrapper">
-      <iframe width="1280" height="720" src="https://www.youtube.com/embed/TVd2fAn6fII" frameborder="0" allowfullscreen></iframe>
-      </div>
-    <p>After dreaming of it since we first played together, I finally had the chance to work on a song of Gala's.</p>
-
-        <p><i>July 2015</i></p>
-    </div>
-
-  <p></p>
--->
 
 <div class="textBG">
   <h2>Crossroads - Feature Documentary</h2>
@@ -415,7 +328,7 @@ Do the following if you're using your customized build of modernizr (http://www.
 
   <p></p>
 
-
+<!--
 <div class="textBG">
       <h2>5/8 - Collaborative EP with Suren Unka - Announcement</h2>
 
@@ -442,6 +355,7 @@ Do the following if you're using your customized build of modernizr (http://www.
     </div>
 
   <p></p>
+-->
 
 <div class="textBG">
       <h2>This Island is Ours - Feature Documentary</h2>
@@ -470,44 +384,6 @@ Do the following if you're using your customized build of modernizr (http://www.
 
   <p></p>
 
-<div class="textBG">
-      <h2>Since Last Letters - Music Video in the Making</h2>
-
-      <p>In August I was awarded funding by NZ On Air to create a music video for <i>Since Last Letters</i>, a track from my upcoming album, and I can hardly believe it.</p>
-
-      <p>I've enlisted the help of Nils Clauss, a German filmmaker based in Seoul, Korea. Nils and I met while working together on the UIC promotional video below. He has an aesthetic and creative approach that I love and that I feel is a good match for my own.</p> 
-
-      <p>For this project we're casting our preconceptions about music video content aside and seeing where it leads us.</p>
-      <p></p>
-
-      <div class="videoContainer">
-    <div class="videoWrapper">
-      <iframe src="//player.vimeo.com/video/113468673?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="1024" height="576" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-    </div>
-  </div>
-
-     <p></p>
-
-        <p><i>Mar 2016</i></p>
-    </div>
-
-  <p></p>
-
-    <div class="textBG">
-      <h2>Full-length Album - In Progress</h2>
-
-      <img float="left" src="images/bechstein1.jpg" width="100%"></a>
-
-      <p>Last night I recorded the most beautiful piano I have ever played, a newly restored Bechstein concert grand at the Leigh Sawmill Café. </p>
-
-      <p>I haven't said too much about it before but I've been working on a full length album over the last year or so and this marked the final recording session. There's still a lot of work to be done with mixing and release planning but I'm dedicating all of my time to this at the moment and really hope to make it something special.</p>
-
-     <p></p>
-
-        <p><i>May 2015</i></p>
-    </div>
-
-  <p></p>
 
     <div class="textBG">
       <h2>Of Sleep and Time - Release</h2>
@@ -527,28 +403,6 @@ Do the following if you're using your customized build of modernizr (http://www.
 
    <p></p>
 
-    <div class="textBG">
-      <h2>Of Sleep and Time - A Series of Piano and String Works</h2>
-
-      <p>Late last year I took some time away from my usual style of production to write a short series of piano and string pieces named 'Of Sleep and Time'. I traveled away from home to a small coastal town to record a beautiful piano I discovered, along with touches of bird song and rain.</p>
-      <p>
-        My close friend Chris Park (and cellist on these tracks) accompanied me on a trip to Wellington for the mastering session with Mike Gibson and took some video on the day. Take a look inside the dimly lit but beautiful studio and hear a sample of the opening track 'As she passes'.
-      </p>
-
-      <div class="videoWrapper">
-        <iframe src="//player.vimeo.com/video/118475387?color=ffffff&title=0&byline=0&portrait=0" width="1024" height="576" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-      </div>
-
-      <p>
-        I will be releasing 'Of Sleep and Time' for free on February 18th.
-      </p>
-
-     <p></p>
-
-        <p><i>Feb 2015</i></p>
-    </div>
-
-    <p></p>
 
     <div class="textBG">
       <h2>A Strangely Isolated Place - Reflection on 2014 Mix</h2>
