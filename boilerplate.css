@@ -38,23 +38,6 @@ audio:not([controls]) { display: none; }
 
 html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 
-html, button, input, select, textarea {
-	font-family: "Verlag Light";
-	color: #222;
-}
-
-body {
-	margin: 0;
-	font-size: 1.2em;
-	line-height: 1.4;
-	background-image: url(images/bg.jpg);
-	background-attachment: fixed;
-	font-family: "Verlag Light";
-	font-style: normal;
-	font-weight: 400;
-	font-variant: normal;
-}
-
 /* 
  * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection declarations have to be separate

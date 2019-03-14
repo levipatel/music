@@ -3,6 +3,27 @@
    Note: Fluid media requires that you remove the media's height and width attributes from the HTML
    http://www.alistapart.com/articles/fluid-images/ 
 */
+body {
+	margin: 0;
+	font-size: 1.2em;
+	line-height: 1.4;
+	background-attachment: fixed;
+	font-family: "Verlag Light";
+	font-style: normal;
+	font-weight: 400;
+	font-variant: normal;
+	background: url(images/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+html, button, input, select, textarea {
+	font-family: "Verlag Light";
+	color: #222;
+}
+
 img, object, embed, video {
 
 }
@@ -279,6 +300,7 @@ div#contact {
 	bottom: 0;
 	position: fixed;
 	color: #FFFFFF;
+	z-index: -5;
 }
 
 .menuitem {
