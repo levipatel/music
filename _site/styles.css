@@ -1,8 +1,5 @@
 @charset "UTF-8";
-/* Simple fluid media
-   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
-   http://www.alistapart.com/articles/fluid-images/ 
-*/
+
 body {
 	margin: 0;
 	font-size: 1.2em;
@@ -13,19 +10,15 @@ body {
 	font-weight: 400;
 	font-variant: normal;
 	background: url(images/bg.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 html, button, input, select, textarea {
 	font-family: "Verlag Light";
 	color: #222;
-}
-
-img, object, embed, video {
-
 }
 
 /* IE 6 does not support max-width so default to width 100% */
@@ -42,10 +35,10 @@ img, object, embed, video {
 }
 
 .fluidList {
-    list-style:none;
-    list-style-image:none;
-    margin:0;
-    padding:0;        
+	list-style:none;
+	list-style-image:none;
+	margin:0;
+	padding:0;        
 }
 
 div.videoContainer {
@@ -60,7 +53,7 @@ div.musicContainer {
 	background:rgba(255, 255, 255, 0.9);
 	padding-bottom: 1%;
 }
-	
+
 .videoWrapper {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
@@ -87,22 +80,16 @@ div.musicContainer {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	/*
-	max-width: 350px;
-	max-height: 442px;
-	*/
 }
-h2 {
-	/* text-transform: uppercase; */
-}
+
 #icons {
-    position: relative;
-    float: right;
-    top: 0.5em;
-    right: 0.1em;
-    display: block;
-    width: 58%;
-    max-width: 180px;
+	position: relative;
+	float: right;
+	top: 0.5em;
+	right: 0.1em;
+	display: block;
+	width: 58%;
+	max-width: 180px;
 }
 .icon {
 	width: 20%;
@@ -131,31 +118,29 @@ h2 {
 	position: relative;
 }
 .navbar li ul 	{
-		display: none;  /* Hides the drop-down items */
-		height: auto;									
-		margin: 0;
-		padding: 0;
-		width: inherit;	
-		position: absolute;	
-		}				
+	display: none;  /* Hides the drop-down items */
+	height: auto;									
+	margin: 0;
+	padding: 0;
+	width: inherit;	
+	position: absolute;	
+}				
 .navbar li ul li a 	{
-		/*border-left: 1px solid rgba(0, 0, 0, 0.1);
-		border-right: 1px solid rgba(0, 0, 0, 0.1);*/
-		border-top: 1px solid rgba(0, 0, 0, 0.1);
-		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-		}
-.navbar li:hover ul 	{
-                        display: block; /* Displays the drop-down box when the menu item is hovered over */
-                        }
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.navbar li:hover ul {
+	display: block; /* Displays the drop-down box when the menu item is hovered over */
+}
 .navbar a	{							
-		padding: 6px 0;  /* Adds a padding on the top and bottom so the text appears centered vertically */
-		border-left: 1px solid rgba(0, 0, 0, 0.1); /* Creates a border in a slightly lighter shade of blue than the background.  Combined with the right border, this creates a nice effect. */
-		border-right: 1px solid rgba(0, 0, 0, 0.1); /* Creates a border in a slightly darker shade of blue than the background.  Combined with the left border, this creates a nice effect. */
-		text-decoration: none;  /* Removes the default hyperlink styling. */
-		display: block;
-		font-size: 0.8em;
-		font-style: normal;
-		}
+	padding: 6px 0;  /* Adds a padding on the top and bottom so the text appears centered vertically */
+	border-left: 1px solid rgba(0, 0, 0, 0.1); /* Creates a border in a slightly lighter shade of blue than the background.  Combined with the right border, this creates a nice effect. */
+	border-right: 1px solid rgba(0, 0, 0, 0.1); /* Creates a border in a slightly darker shade of blue than the background.  Combined with the left border, this creates a nice effect. */
+	text-decoration: none;  /* Removes the default hyperlink styling. */
+	display: block;
+	font-size: 0.8em;
+	font-style: normal;
+}
 .navbar li 	{
 	height: auto;
 	width: 33.333%;  /* Each menu item is 150px wide */
@@ -190,31 +175,29 @@ h2 {
 	position: relative; /* Ensures that the menu doesn’t affect other elements if absolute */
 }
 .navbartablet li ul 	{
-		display: none;  /* Hides the drop-down menu */
-		height: auto;									
-		margin: 0; /* Aligns drop-down box underneath the menu item */
-		padding: 0; /* Aligns drop-down box underneath the menu item */	
-		width: inherit;	
-		position: absolute;	
-		}				
+	display: none;  /* Hides the drop-down menu */
+	height: auto;									
+	margin: 0; /* Aligns drop-down box underneath the menu item */
+	padding: 0; /* Aligns drop-down box underneath the menu item */	
+	width: inherit;	
+	position: absolute;	
+}				
 .navbartablet li ul li a 	{
-		/*border-left: 1px solid rgba(0, 0, 0, 0.1);
-		border-right: 1px solid rgba(0, 0, 0, 0.1);*/
-		border-top: 1px solid rgba(0, 0, 0, 0.1);
-		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-		}
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
 .navbartablet li:hover ul 	{
-                        display: block; /* Displays the drop-down box when the menu item is hovered over */
-                        }
+	display: block; /* Displays the drop-down box when the menu item is hovered over */
+}
 .navbartablet a	{							
-		padding: 10px 0;  /* Adds a padding on the top and bottom so the text appears centered vertically */
-		border-left: 1px solid rgba(0, 0, 0, 0.1); /* Creates a border in a slightly lighter shade of blue than the background.  Combined with the right border, this creates a nice effect. */
-		border-right: 1px solid rgba(0, 0, 0, 0.1); /* Creates a border in a slightly darker shade of blue than the background.  Combined with the left border, this creates a nice effect. */
-		text-decoration: none;  /* Removes the default hyperlink styling. */
-		display: block;
-		font-size: 1em;
-		font-style: normal;
-		}
+	padding: 10px 0;  /* Adds a padding on the top and bottom so the text appears centered vertically */
+	border-left: 1px solid rgba(0, 0, 0, 0.1); /* Creates a border in a slightly lighter shade of blue than the background.  Combined with the right border, this creates a nice effect. */
+	border-right: 1px solid rgba(0, 0, 0, 0.1); /* Creates a border in a slightly darker shade of blue than the background.  Combined with the left border, this creates a nice effect. */
+	text-decoration: none;  /* Removes the default hyperlink styling. */
+	display: block;
+	font-size: 1em;
+	font-style: normal;
+}
 .navbartablet li 	{
 	height: auto;
 	width: 25%;  /* Each menu item is 150px wide */
@@ -244,7 +227,7 @@ div.textBG {
 
 
 /* Mobile Layout: 480px and below. */
-  
+
 .navfont {
 	font-size: 0.8em;
 	font-style: normal;
@@ -298,7 +281,7 @@ div#contact {
 	text-align: center;
 	width: 10%;
 	clear: right;
-    background-color: rgba(255,255,255,0.80);
+	background-color: rgba(255,255,255,0.80);
 }
 
 .navmenuitem {
@@ -342,8 +325,6 @@ a:active {
 	min-height: 0px;
 }
 
-.bandcamp {
-}
 .song {
 	clear: right;
 	padding-top: 2%;
@@ -361,7 +342,7 @@ a:active {
 	width: 45%;
 }
 .art-intext {
-		clear: right;
+	clear: right;
 	float: left;
 	padding-top: 20px;
 	padding-right: 20px;
@@ -369,8 +350,7 @@ a:active {
 	padding-left: 20px;
 	width: 45%;
 }
-#songlist {
-}
+
 .socialmediaicons {
 	position: fixed;
 	top: 0;
@@ -378,10 +358,10 @@ a:active {
 	background-color: rgba(255,255,255,0.70);
 }
 .zeroMargin_mobile {
-margin-left: 0;
+	margin-left: 0;
 }
 .hide_mobile {
-display: none;
+	display: none;
 }
 #logo {
 	width:38%;
@@ -417,98 +397,83 @@ div.spotify-player iframe{
 
 @media only screen and (min-width: 481px) {
 
-#icons {
-	top: 2em;
-    right: 2em;
- 	max-width: 250px;
-}
-.icon {
-	padding-left: 2px;
-	padding-right: 2px;
-}
-#dropdownmobile {
-	display: none;
-}
-#dropdowntablet {
-	display: block;
-}
-#mainnav {
-	display: none;
-}
-.musicWrapper {
-	position: relative;
-	padding-bottom: 140%;
-	padding-top: 25px;
-	height: 0;
-}
-.musicWrapper iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	/*
-	max-width: 350px;
-	max-height: 442px;
-	*/
-}
-.navfont {
-	font-size: 0.9em;
-}
-div.videoContainer {
-	text-align:center;
-	background:rgba(255, 255, 255, 0.9);
-	padding-bottom: 1%;
-	margin-right: 1%;
-	margin-left: 1%;
+	#icons {
+		top: 2em;
+		right: 2em;
+		max-width: 250px;
 	}
-div.videoContainer p {
-	padding-left: 20px;
-	padding-right: 20px;
-}
-.gridContainer {
-	width: 90.675%;
-	clear: none;
-	float: none;
-	margin: auto;
-}
+	.icon {
+		padding-left: 2px;
+		padding-right: 2px;
+	}
+	#dropdownmobile {
+		display: none;
+	}
+	#dropdowntablet {
+		display: block;
+	}
+	#mainnav {
+		display: none;
+	}
+	.musicWrapper {
+		position: relative;
+		padding-bottom: 140%;
+		padding-top: 25px;
+		height: 0;
+	}
+	.musicWrapper iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+	.navfont {
+		font-size: 0.9em;
+	}
+	div.videoContainer {
+		text-align:center;
+		background:rgba(255, 255, 255, 0.9);
+		padding-bottom: 1%;
+		margin-right: 1%;
+		margin-left: 1%;
+	}
+	div.videoContainer p {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.gridContainer {
+		width: 90.675%;
+		clear: none;
+		float: none;
+		margin: auto;
+	}
 
-#sidecontent {
-width: 15%;
-display: none;
-}
-#mainsection {
-clear: both;
-margin-left: 0;
-}
-#homemainsection {
-clear: both;
-margin-left: 0;
-}
-div.textBG {
-	padding:3%;
-	background: rgba(255, 255, 255, 0.7);
-	overflow: auto;
-	margin: 1%;
-}
-#footer {
-}
+	#sidecontent {
+		width: 15%;
+		display: none;
+	}
+	#mainsection {
+		clear: both;
+		margin-left: 0;
+	}
+	#homemainsection {
+		clear: both;
+		margin-left: 0;
+	}
+	div.textBG {
+		padding:3%;
+		background: rgba(255, 255, 255, 0.7);
+		overflow: auto;
+		margin: 1%;
+	}
 
-
-.bandcamp {
-}
-.song {
-}
-#songlist {
-}
-#socialmediaicons {
-}
-.hide_tablet {
-display: none;
-}
-.zeroMargin_tablet {
-margin-left: 0;
-}
+	.hide_tablet {
+		display: none;
+	}
+	.zeroMargin_tablet {
+		margin-left: 0;
+	}
 
 }
 
@@ -516,107 +481,92 @@ margin-left: 0;
 
 @media only screen and (min-width: 814px) {
 
-#icons {
-	top: 2em;
-    right: 2em;
-    max-width: 260px;
-}
-.icon {
-	padding-left: 5px;
-	padding-right: 5px;
-}
-#dropdownmobile {
-	display: none;
-}
-#dropdowntablet {
-	display: none;
-}
-#mainnav {
-	display: inline;
-}
-.musicWrapper {
-	position: relative;
-	padding-bottom: 120%;
-	padding-top: 25px;
-	height: 0;
-}
-.musicWrapper iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	/*
-	max-width: 350px;
-	max-height: 442px;
-	*/
-}
-.navfont {
-	font-size: 1em;
-}
-div.videoContainer {
-	text-align:center;
-	background:rgba(255, 255, 255, 0.9);
-	padding-bottom: 15px;
+	#icons {
+		top: 2em;
+		right: 2em;
+		max-width: 260px;
+	}
+	.icon {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	#dropdownmobile {
+		display: none;
+	}
+	#dropdowntablet {
+		display: none;
+	}
+	#mainnav {
+		display: inline;
+	}
+	.musicWrapper {
+		position: relative;
+		padding-bottom: 120%;
+		padding-top: 25px;
+		height: 0;
+	}
+	.musicWrapper iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+	.navfont {
+		font-size: 1em;
+	}
+	div.videoContainer {
+		text-align:center;
+		background:rgba(255, 255, 255, 0.9);
+		padding-bottom: 15px;
 	}
 
 
-.gridContainer {
-	width: 88.5%;
-	max-width: 1232px;
-	padding-left: 0.75%;
-	padding-right: 0.75%;
-	margin: auto;
-	clear: none;
-	float: none;
-	margin-left: auto;
-}
+	.gridContainer {
+		width: 88.5%;
+		max-width: 1232px;
+		padding-left: 0.75%;
+		padding-right: 0.75%;
+		margin: auto;
+		clear: none;
+		float: none;
+		margin-left: auto;
+	}
 
-#sidecontent {
-	width: 15%;
-	min-width: 132px;
-	max-width: 170px;
-	padding-top: 50px;
-	padding-left: 10px;
-	padding-right: 10px;
-	display:inline
-}
-#mainsection {
-	width: 80%;
-	margin-left: 1.6949%;
-	clear: none;
-	background-color: undefined;
-}
-#homemainsection {
-	width: 98%;
+	#sidecontent {
+		width: 15%;
+		min-width: 132px;
+		max-width: 170px;
+		padding-top: 50px;
+		padding-left: 10px;
+		padding-right: 10px;
+		display:inline
+	}
+	#mainsection {
+		width: 80%;
+		margin-left: 1.6949%;
+		clear: none;
+		background-color: undefined;
+	}
+	#homemainsection {
+		width: 98%;
 
-	clear: none;
-	background-color: undefined;
-}
+		clear: none;
+		background-color: undefined;
+	}
 
-.bandcamp {
-}
-
-/*
-.song {
-	width: 50%;
-}
-*/
-
-#songlist {
-}
-#socialmediaicons {
-	position: fixed;
-	right: 0px;
-	bottom: 0px;
-}
-.zeroMargin_desktop {
-margin-left: 0;
-}
-.hide_desktop {
-display: none;
-}
-#logo {
-	width:198px;
-}
+	#socialmediaicons {
+		position: fixed;
+		right: 0px;
+		bottom: 0px;
+	}
+	.zeroMargin_desktop {
+		margin-left: 0;
+	}
+	.hide_desktop {
+		display: none;
+	}
+	#logo {
+		width:198px;
+	}
 }

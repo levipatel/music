@@ -1,4 +1,5 @@
 <!doctype html>
+{% include base.html %}
 <!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
 <!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
 <!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
@@ -16,8 +17,8 @@
 
 <link rel="shortcut icon" href="favicon.png" type="image/png">
 <link rel="shortcut icon" type="image/png" href="https://levipatel.com/favicon.png" />
-<link href="boilerplate.css" rel="stylesheet" type="text/css">
-<link href="styles.css" rel="stylesheet" type="text/css">
+<link href="{{base}}boilerplate.css" rel="stylesheet" type="text/css">
+<link href="{{base}}styles.css" rel="stylesheet" type="text/css">
 
 <!--[if lt IE 9]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -38,13 +39,13 @@
 <body>
 
 
-<header id="mainheader" class="fluid"><a href="index"><img id="logo" src="images/levipatellogo.png" alt="Levi Patel"/></a>
+<header id="mainheader" class="fluid"><a href="index"><img id="logo" src="{{base}}images/levipatellogo.png" alt="Levi Patel"/></a>
   <div id="icons">
-    <a href="https://instagram.com/levipatel" target="_blank"><img class="icon" src="images/instagramicon.png" align="right" alt=""/></a>
-    <a href="https://levipatel.bandcamp.com" target="_blank"><img class="icon" src="images/bandcampicon.png" align="right" alt=""/></a>
-    <a href="https://twitter.com/LeviPatel" target="_blank"><img class="icon" src="images/twittericon.png" align="right"  alt=""/></a>
-    <a href="https://www.facebook.com/LeviPatelMusic" target="_blank"><img class="icon" src="images/facebookicon.png" align="right" alt=""/></a>
-    <a href="https://open.spotify.com/artist/58yaxER8OVXD43lFpnWIAn?si=5zcGV4e4QxSeMlptGLJNeA" target="_blank"><img class="icon" src="images/spotifyicon.png" align="right" alt=""/></a>
+    <a href="https://instagram.com/levipatel" target="_blank"><img class="icon" src="{{base}}images/instagramicon.png" align="right" alt=""/></a>
+    <a href="https://levipatel.bandcamp.com" target="_blank"><img class="icon" src="{{base}}images/bandcampicon.png" align="right" alt=""/></a>
+    <a href="https://twitter.com/LeviPatel" target="_blank"><img class="icon" src="{{base}}images/twittericon.png" align="right"  alt=""/></a>
+    <a href="https://www.facebook.com/LeviPatelMusic" target="_blank"><img class="icon" src="{{base}}images/facebookicon.png" align="right" alt=""/></a>
+    <a href="https://open.spotify.com/artist/58yaxER8OVXD43lFpnWIAn?si=5zcGV4e4QxSeMlptGLJNeA" target="_blank"><img class="icon" src="{{base}}images/spotifyicon.png" align="right" alt=""/></a>
   </div>
 </header>
 
@@ -115,7 +116,7 @@
 
 
 <aside id="sidecontent" class="fluid">
-  <p><img src="images/levipatel8-square-s.jpg" style="width:100%" alt="Levi Patel portrait photograph" /></p>
+  <p><img src="{{base}}images/levipatel8-square-s.jpg" style="width:100%" alt="Levi Patel portrait photograph" /></p>
   <div id="contact"><p>Contact: 
  levi@levipatel.com</p>
 
