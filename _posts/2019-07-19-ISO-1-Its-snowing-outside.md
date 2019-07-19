@@ -3,7 +3,7 @@ layout: post
 title: It's Snowing Outside
 categories: [It's Snowing Outside]
 tags: [It's Snowing Outside, Film]
-preview: One morning in September last year I opened my eyes , rolled over, and maintained my bad habit of checking my emails as soon as I woke up. Don't worry, the story gets better.
+preview: One morning in September last year I opened my eyes , rolled over, and maintained my bad habit of checking my emails as soon as I woke up - 1 new message.
 ---
 
 One morning in September last year I opened my eyes , rolled over, and maintained my bad habit of checking my emails as soon as I woke up - 1 new message.
