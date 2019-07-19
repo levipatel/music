@@ -230,6 +230,37 @@ div.textBG img {
 }
 
 
+
+
+/* Simple Sharing Buttons social media sharing icons */
+ul.share-buttons{
+  list-style: none;
+  padding: 0;
+  float: right;
+  margin: 0;
+}
+
+ul.share-buttons li{
+  display: inline;
+}
+
+ul.share-buttons .sr-only{
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+.share-text {
+	float: right;
+	margin: 5px 7px 0 0;
+}
+
+
 /* Mobile Layout: 480px and below. */
 
 .navfont {
