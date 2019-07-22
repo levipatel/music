@@ -219,6 +219,8 @@ div.textBG {
 	padding:3%;
 	background: rgba(255, 255, 255, 0.9);
 	overflow: auto;
+	border-radius: 2px;
+	max-width: 910px;
 }
 
 div.textBG img {
