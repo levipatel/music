@@ -1,7 +1,7 @@
 ---
 layout: post
 title: It's Snowing Outside
-categories: [It's Snowing Outside]
+categories: [blog]
 tags: [It's Snowing Outside, Film]
 preview: <p>"My name is Rayne Roberts and I'm a director, producer, and executive at Lucasfilm... Oh, and I LOVE your music."</p>
 ---
