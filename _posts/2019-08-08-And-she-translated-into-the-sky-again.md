@@ -3,7 +3,7 @@ layout: post
 title: And She Translated Into the Sky Again
 categories: [blog]
 tags: [It's Snowing Outside, Film]
-preview: It's Snowing Outside - Chapter II
+preview: It's Snowing Outside - Chapter II. The creative process and an invitation.
 ---
 
 _It’s Snowing Outside – Chapter II_
