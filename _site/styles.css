@@ -231,6 +231,16 @@ div.textBG img {
 	background: rgba(255, 255, 255, 0.9);
 }
 
+ul.list-unstyled {
+	list-style: none;
+	margin-top: 0.6em;
+	margin-bottom: 2em;
+}
+
+.list-spaced li {
+	margin-bottom: 0.6em;
+}
+
 
 
 
