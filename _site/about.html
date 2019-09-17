@@ -242,7 +242,11 @@
 </section>
 </div>
 
-<footer id="footer" class="fluid">&copy <script>document.write(new Date().getFullYear())</script> Levi Patel</footer>
+<footer id="footer" class="fluid">&copy <span id="current-year-copyright"></span> Levi Patel</footer>
+
+<script type="text/javascript">
+  document.getElementById('current-year-copyright').innerHTML = new Date().getFullYear()
+</script>
 
 </body>
 </html>
