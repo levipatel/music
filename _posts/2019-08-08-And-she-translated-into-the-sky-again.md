@@ -10,7 +10,7 @@ _It’s Snowing Outside – Chapter II_
 
 Rayne Roberts discovered me through my piece _And she translated into the sky_, and she played it on repeat while writing the script for _It’s Snowing Outside_. The track would also underpin the third and final act of the short film in a sequence Rayne envisioned as “eerie, magical realism meets noir genre” and “stepping into the unknown”.
 
-<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/track=3288278685/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="http://levipatel.bandcamp.com/track/and-she-translated-into-the-sky">And she translated into the sky by Levi Patel</a></iframe>
+<iframe style="border: 0; width: 100%; height: 42px;" title="And she translated into the sky music player" src="https://bandcamp.com/EmbeddedPlayer/track=3288278685/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="http://levipatel.bandcamp.com/track/and-she-translated-into-the-sky">And she translated into the sky by Levi Patel</a></iframe>
 
 The film is a drama and romance centred around a 19 year old who must navigate relationships while exploring her own sense of self. To mirror her character development, we decided that my newly composed music – for acts I and II – should incorporate themes from _And she translated into the sky_. This meant revisiting sounds and phrases that I created over five years ago – when I was a university student – in my apartment bedroom.
 
