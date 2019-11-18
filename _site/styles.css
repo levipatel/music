@@ -243,6 +243,20 @@ ul.list-unstyled {
 }
 
 
+/* Press Kit */
+.press-kit-music iframe {
+	padding-right: 22px;
+	padding-bottom: 15px;
+}
+
+.press-kit-contact {
+	margin-bottom: 20px;
+}
+.press-kit-contact p {
+	margin: 0;
+}
+
+
 
 
 /* Simple Sharing Buttons social media sharing icons */
