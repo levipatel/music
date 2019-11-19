@@ -99,39 +99,6 @@ div.musicContainer {
 	max-height: 36px;
 }
 
-.press-kit-icons {
-	display: inline-block;
-	clear: both;
-	padding-top: 34px;
-}
-
-.press-kit-icons img {
-	max-height: 36px;
-	padding-right: 16px;
-	float: left;
-}
-
-.press-photos-download-link {
-	float: right;
-	display: inline-block;
-	margin-top: 20px;
-	padding: 1em 1.5em;
-  	background-color: transparent;
-  	color: #222;
-  	box-shadow: 0 5px 10px lightgrey;
-  	border: solid 2px #222;
-  	border-radius: 2rem;
-  	text-decoration: none;
-  	transition: 0.3s;
-  	font-style: normal;
-  	font-weight: bold;
-}
-
-.press-photos-download-link:hover {
-	background-color: #222;
-	color: white;
-}
-
 
 
 /* Mobile version of the drop down menu */
@@ -282,9 +249,15 @@ ul.list-unstyled {
 }
 
 .press-kit-music iframe {
-	padding-right: 22px;
+	padding-right: 8px;
 	padding-bottom: 15px;
 }
+@media only screen and (min-width: 490px) {
+	.press-kit-music iframe {
+		padding-right: 22px;
+	}
+}
+
 
 .press-kit-contact {
 	padding-bottom: 50px;
@@ -293,7 +266,44 @@ ul.list-unstyled {
 	margin: 0;
 }
 
+.press-kit-icons {
+	display: inline-block;
+	clear: both;
+	padding-top: 34px;
+}
 
+.press-kit-icons img {
+	max-height: 36px;
+	padding-right: 16px;
+	padding-bottom: 10px;
+	float: left;
+}
+
+.press-photos-download-link {
+	display: inline-block;
+	margin-top: 20px;
+	padding: 1em 1.5em;
+  	background-color: transparent;
+  	color: #444;
+  	box-shadow: 0 5px 10px lightgrey;
+  	border: solid 2px #444;
+  	border-radius: 2rem;
+  	text-decoration: none;
+  	transition: 0.3s;
+  	font-style: normal;
+  	font-weight: bold;
+}
+
+.press-photos-download-link:hover {
+	background-color: #444;
+	color: white;
+}
+
+@media only screen and (min-width: 651px) {
+	.press-photos-download-link {
+		float: right;
+	}
+}
 
 
 /* Simple Sharing Buttons social media sharing icons */
