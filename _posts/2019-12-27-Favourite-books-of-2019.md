@@ -1,9 +1,9 @@
 ---
 layout: post
-title: My Favourite Books of 2019
+title: My Year in Books - 2019
 categories: [blog]
 tags: [Personal Interest, Books]
-preview: When I'm not making music I love to read. See my favourite books of 2019.
+preview: After music, my second love is reading. Out of all the books I read this year, here are my top 5.
 ---
 
 After music, my second love is reading. Out of all the books I read this year, here are my top 5.
