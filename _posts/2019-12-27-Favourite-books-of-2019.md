@@ -3,7 +3,7 @@ layout: post
 title: My Year in Books - 2019
 categories: [blog]
 tags: [Personal Interest, Books]
-preview: After music, my second love is reading. Out of all the books I read this year, here are my top 5.
+preview: After music, my second love is reading. Out of the books I read this year, here are my top 5.
 ---
 
 After music, my second love is reading. Out of all the books I read this year, here are my top 5.
