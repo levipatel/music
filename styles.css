@@ -306,6 +306,32 @@ ul.list-unstyled {
 }
 
 
+/* Link Tiles (Linktree style) */
+ul.link-tiles {
+	list-style: none;
+	padding-left: 0;
+}
+
+ul.link-tiles li {
+	padding-bottom: 1.5rem;
+}
+
+ul.link-tiles li:last-of-type {
+	padding-bottom: 0;
+}
+
+ul.link-tiles img {
+	max-height: 90px;
+	padding-right: 1rem;
+	padding-bottom: 0.5rem;
+}
+
+ul.link-tiles a {
+	display: inline-block;
+	padding-bottom: 0.5rem;
+}
+
+
 /* Simple Sharing Buttons social media sharing icons */
 ul.share-buttons{
   list-style: none;
