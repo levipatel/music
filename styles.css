@@ -217,9 +217,7 @@ div.musicContainer {
 
 
 div.textBG {
-	padding: 4%;
-	padding-left: 8%;
-	padding-right: 8%;
+	padding:3%;
 	background: rgba(255, 255, 255, 0.9);
 	overflow: auto;
 	border-radius: 2px;
@@ -599,7 +597,9 @@ div.spotify-player iframe{
 		margin-left: 0;
 	}
 	div.textBG {
-		padding:3%;
+		padding: 4%;
+		padding-left: 8%;
+		padding-right: 8%;
 		background: rgba(255, 255, 255, 0.9);
 		overflow: auto;
 		margin: 1%;
