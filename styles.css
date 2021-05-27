@@ -602,7 +602,7 @@ div.spotify-player iframe{
 		padding-right: 8%;
 		background: rgba(255, 255, 255, 0.9);
 		overflow: auto;
-		margin: 1%;
+		margin-top: 1.5%;
 	}
 
 	.hide_tablet {
