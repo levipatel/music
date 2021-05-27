@@ -69,8 +69,8 @@ div.musicContainer {
 	height: 100%;
 }
 
-body.vp-center {
-	height: auto;
+.vp-center {
+	height: auto !important; /* Override inline iframe styling */
 }
 
 .musicWrapper {
