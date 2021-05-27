@@ -69,10 +69,6 @@ div.musicContainer {
 	height: 100%;
 }
 
-.vp-center {
-	height: auto !important; /* Override inline iframe styling */
-}
-
 .musicWrapper {
 	position: relative;
 	padding-bottom: 160%;
