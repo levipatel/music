@@ -69,6 +69,10 @@ div.musicContainer {
 	height: 100%;
 }
 
+body.vp-center {
+	height: auto;
+}
+
 .musicWrapper {
 	position: relative;
 	padding-bottom: 160%;
