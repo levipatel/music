@@ -39,19 +39,24 @@
 <body>
 
 
-<header id="mainheader" class="fluid"><a href="index"><img id="logo" src="{{base}}images/levipatellogo.png" alt="Levi Patel"/></a>
-  <div id="icons">
-    <a href="https://instagram.com/levipatel" target="_blank" rel="noopener" aria-label="Levi Patel on Instagram">
-      <img class="icon" src="{{base}}images/icons/instagram.png" align="right" alt=""/></a>
-    <a href="https://levipatel.bandcamp.com" target="_blank" rel="noopener" aria-label="Levi Patel on Bandcamp">
-      <img class="icon" src="{{base}}images/icons/bandcamp.png" align="right" alt=""/></a>
-    <a href="https://twitter.com/LeviPatel" target="_blank" rel="noopener" aria-label="Levi Patel on Twitter">
-      <img class="icon" src="{{base}}images/icons/twitter.png" align="right"  alt=""/></a>
-    <a href="https://www.facebook.com/LeviPatelMusic" target="_blank" rel="noopener" aria-label="Levi Patel on Facebook">
-      <img class="icon" src="{{base}}images/icons/facebook.png" align="right" alt=""/></a>
-    <a href="https://open.spotify.com/artist/58yaxER8OVXD43lFpnWIAn?si=5zcGV4e4QxSeMlptGLJNeA" target="_blank" rel="noopener" aria-label="Levi Patel on Spotify">
-      <img class="icon" src="{{base}}images/icons/spotify.png" align="right" alt=""/></a>
+<header id="mainheader" class="fluid">
+
+  <a href="index"><img id="logo" src="{{base}}images/levipatellogo.png" alt="Levi Patel"/></a>
+ 
+  <div id="navigation">
+    <nav id="mainnav" class="fluid">
+      <ul id="menusystem" class="fluid fluidList">
+        <li class="fluid navmenuitem"><a class="navfont" href="{{base}}index" target="_self" title="Home">HOME</a></li>
+        <li class="fluid navmenuitem"><a class="navfont" href="{{base}}news" target="_self" title="News">NEWS</a></li>
+        <li class="fluid navmenuitem"><a class="navfont" href="{{base}}music" target="_self" title="Music">MUSIC</a></li>
+        <li class="fluid navmenuitem"><a class="navfont" href="{{base}}filmandtv" target="_self" title="Film and TV">FILM/TV</a></li>
+        <li class="fluid navmenuitem"><a class="navfont" href="{{base}}blog" target="_self" title="Blog">BLOG</a></li>
+        <li class="fluid navmenuitem"><a class="navfont" href="{{base}}about" target="_self" title="About">ABOUT</a></li>
+        <li class="fluid navmenuitem" id="contactnav"><a class="navfont" href="{{base}}contact" target="_self" title="Contact">CONTACT</a></li>
+      </ul>
+    </nav>
   </div>
+
 </header>
 
 
@@ -64,7 +69,6 @@
           <a target="_self" href="#">MEDIA</a>
           <ul>
            <li style="width:100%"><a target="_self" href="{{base}}music">MUSIC</a></li>
-           <li style="width:100%"><a target="_self" href="{{base}}video">VIDEO</a></li>
            <li style="width:100%"><a target="_self" href="{{base}}filmandtv">FILM/TV</a></li>
           </ul>         
        </li>
@@ -89,11 +93,7 @@
           <a target="_self" href="{{base}}music">MUSIC</a>
         </li>
        <li>
-          <a target="_self" href="#">MEDIA</a>
-          <ul>
-           <li style="width:100%"><a target="_self" href="{{base}}video">VIDEO</a></li>
-           <li style="width:100%"><a target="_self" href="{{base}}filmandtv">FILM/TV</a></li>
-          </ul>         
+          <a target="_self" href="{{base}}filmandtv">FILM/TV</a>        
        </li>
        <li>
         <a target="_self" href="#">INFO</a>
@@ -107,20 +107,19 @@
 </div>
 
 
-<div id="navigation">
+<!-- <div id="navigation">
   <nav id="mainnav" class="fluid">
     <ul id="menusystem" class="fluid fluidList">
       <li class="fluid navmenuitem"><a class="navfont" href="{{base}}index" target="_self" title="Home">HOME</a></li>
       <li class="fluid navmenuitem"><a class="navfont" href="{{base}}news" target="_self" title="News">NEWS</a></li>
       <li class="fluid navmenuitem"><a class="navfont" href="{{base}}music" target="_self" title="Music">MUSIC</a></li>
-      <li class="fluid navmenuitem"><a class="navfont" href="{{base}}video" target="_self" title="Video">VIDEO</a></li>
       <li class="fluid navmenuitem"><a class="navfont" href="{{base}}filmandtv" target="_self" title="Film and TV">FILM/TV</a></li>
       <li class="fluid navmenuitem"><a class="navfont" href="{{base}}blog" target="_self" title="Blog">BLOG</a></li>
       <li class="fluid navmenuitem"><a class="navfont" href="{{base}}about" target="_self" title="About">ABOUT</a></li>
       <li class="fluid navmenuitem" id="contactnav"><a class="navfont" href="{{base}}contact" target="_self" title="Contact">CONTACT</a></li>
     </ul>
   </nav>
-</div>
+</div> -->
 
 
 <div class="gridContainer clearfix">
@@ -131,7 +130,20 @@
 </section>
 </div>
 
-<footer id="footer" class="fluid">&copy <span id="current-year-copyright"></span> Levi Patel</footer>
+<footer id="footer" class="fluid">
+   <div id="icons">
+    <a href="https://instagram.com/levipatel" target="_blank" rel="noopener" aria-label="Levi Patel on Instagram">
+      <img class="icon" src="{{base}}images/icons/instagram.png" align="right" alt=""/></a>
+    <a href="https://levipatel.bandcamp.com" target="_blank" rel="noopener" aria-label="Levi Patel on Bandcamp">
+      <img class="icon" src="{{base}}images/icons/bandcamp.png" align="right" alt=""/></a>
+    <a href="https://twitter.com/LeviPatel" target="_blank" rel="noopener" aria-label="Levi Patel on Twitter">
+      <img class="icon" src="{{base}}images/icons/twitter.png" align="right"  alt=""/></a>
+    <a href="https://www.facebook.com/LeviPatelMusic" target="_blank" rel="noopener" aria-label="Levi Patel on Facebook">
+      <img class="icon" src="{{base}}images/icons/facebook.png" align="right" alt=""/></a>
+    <a href="https://open.spotify.com/artist/58yaxER8OVXD43lFpnWIAn?si=5zcGV4e4QxSeMlptGLJNeA" target="_blank" rel="noopener" aria-label="Levi Patel on Spotify">
+      <img class="icon" src="{{base}}images/icons/spotify.png" align="right" alt=""/></a>
+  </div>
+</footer>
 
 <script type="text/javascript">
   document.getElementById('current-year-copyright').innerHTML = new Date().getFullYear()
