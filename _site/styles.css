@@ -14,6 +14,17 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	/* Keep footer at bottom of all pages */
+	display: flex;
+  	flex-direction: column;
+}
+
+html, body {
+  height: 100%;
+}
+
+.page-content {
+  flex: 1 0 auto; /* Keep footer at bottom of all pages */
 }
 
 html, button, input, select, textarea {
@@ -368,6 +379,15 @@ ul.share-buttons .sr-only{
 	overflow: hidden;
 }
 
+#mainheader #navigation {
+	float: right;
+	margin-right: 3rem;
+}
+
+.logo-header {
+	display: inline-block;
+}
+
 #mainnav {
 	background-color: rgba(255,255,255,0.70);
 }
@@ -389,8 +409,11 @@ div#contact {
 #footer {
 	background-color: rgba(255,255,255,0.70);
 	padding: 1rem 0;
+	margin-top: 1rem;
 	text-align: center;
+	flex-shrink: 0; /* Keep footer on the bottom of pages with little content */
 }
+
 
 #icons {
 	position: relative;
@@ -420,9 +443,10 @@ div#contact {
 .navmenuitem {
 	text-align: center;
 	width: 12%;
-	min-width: 100px;
+	min-width: 91px;
 	clear: right;
 	max-width: 140px;
+	padding: 2.8rem 0;
 }
 
 #currentnav {
@@ -519,6 +543,9 @@ div.spotify-player iframe{
 	display: inline-block;
 	width: 100%;
 }
+
+
+
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
 
@@ -668,6 +695,7 @@ div.spotify-player iframe{
 
 	#logo {
 		width:198px;
+		margin-left: 1rem;
 	}
 
 	img.half-width {
@@ -679,7 +707,10 @@ div.spotify-player iframe{
 /* Bootstrap large equivalent */
 @media only screen and (min-width: 960px) {
 	.song {
-			width: 28%;
-		}
+		width: 28%;
+	}
+	.navmenuitem {
+		min-width: 100px;
+	}
 
 	}
