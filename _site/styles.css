@@ -286,7 +286,7 @@ a:active {
 
 
 
-/*.videoContainer {
+.videoContainer {
 	text-align:center;
 	background:rgba(255, 255, 255, 0.9);
 }
@@ -295,7 +295,7 @@ a:active {
 	max-width: 980px;
 	margin: 0 auto;
 	padding: 3%;
-}*/
+}
 
 /*.musicContainer {
 	text-align:center;
@@ -365,6 +365,9 @@ a:active {
 .music-discography p {
 	max-width: 800px;
 	margin: 0 auto;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 10px;
 }
 
 .music-discography-grid {
@@ -815,11 +818,11 @@ div.spotify-player iframe{
 		padding-right: 20px;
 	}
 
-/*	.video-content {
+	.video-content {
 		padding-bottom: 2%;
 		padding-left: 3%;
 		padding-right: 3%;
-	}*/
+	}
 
 /*	.gridContainer {
 		width: 90.675%;
