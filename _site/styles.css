@@ -198,19 +198,65 @@ a:active {
   background-size: cover;
 }
 
+
+
 .music-page-banner {
 	background: url(images/banners/levipatel17.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .collaboration-page-banner {
 	background: url(images/banners/studio-levi-gala-dark.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.studio-page-banner {
+	background: url(images/banners/studio-banner-dark.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.contact-page-banner {
+	background: url(images/banners/levipatel22-dark.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.about-page-banner {
+	background: url(images/banners/levipatel7-dark.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.about-page-banner a {
+	color: white;
+}
+
+.about-page-banner a:hover {
+	color: rgba(255, 255, 255, 0.8);
 }
 
 .page-banner-text {
 	color: white;
-	max-width: 640px;
+	max-width: 680px;
 	margin: auto;
 	padding: 5%;
+}
+
+.home-page-banner .page-banner-text {
+	max-width: 640px;
 }
 
 .page-banner-text h1 {
@@ -754,7 +800,7 @@ div.spotify-player iframe{
 	}
 
 	.page-banner-text {
-		padding: 18% 3rem;
+		padding: 14% 3rem;
 	}
 
 	.tile-grid {
