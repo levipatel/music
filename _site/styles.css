@@ -187,7 +187,7 @@ a:active {
 
 
 
-/* Home Page Banner */
+/* Page Banner */
 .page-banner {
 	width: 100%;
 	display: flex;
@@ -200,6 +200,10 @@ a:active {
 
 .music-page-banner {
 	background: url(images/banners/levipatel17.jpg) no-repeat center center fixed;
+}
+
+.collaboration-page-banner {
+	background: url(images/banners/studio-levi-gala-dark.jpg) no-repeat center center fixed;
 }
 
 .page-banner-text {
@@ -218,13 +222,10 @@ a:active {
 	border-radius: 3px;
 }
 
-.page-banner iframe .PAGE, .page-banner iframe .embed-footer {
-	background-color: rgba(255, 255, 255, 0.7);	
-}
-
 .page-banner iframe .embed-footer__border {
 	display:  none;
 }
+
 
 
 /* Tile Grid */
@@ -284,7 +285,8 @@ a:active {
 
 
 
-.videoContainer {
+
+/*.videoContainer {
 	text-align:center;
 	background:rgba(255, 255, 255, 0.9);
 }
@@ -293,13 +295,13 @@ a:active {
 	max-width: 980px;
 	margin: 0 auto;
 	padding: 3%;
-}
+}*/
 
-.musicContainer {
+/*.musicContainer {
 	text-align:center;
 	background:rgba(255, 255, 255, 0.9);
 	padding-bottom: 1%;
-}
+}*/
 
 .videoWrapper {
 	position: relative;
@@ -309,20 +311,6 @@ a:active {
 }
 
 .videoWrapper iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-
-.musicWrapper {
-	position: relative;
-	padding-bottom: 160%;
-	padding-top: 25px;
-	height: 0;
-}
-.musicWrapper iframe {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -357,13 +345,47 @@ a:active {
 	max-width: 850px;
 }
 
-.textBG.music-discography {
-	text-align: center;
+
+.music-discography {
+	background: rgba(255, 255, 255, 0.9);
+	padding-top: 40px;
+	padding-bottom: 30px;
 }
 
-.textBG.music-discography .textBG-content {
-	max-width: 1400px;
+.music-discography.darker-background {
+	background: rgba(255, 255, 255, 0.7);
 }
+
+.music-discography h2 {
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0.5em;
+}
+
+.music-discography p {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.music-discography-grid {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	max-width: 1300px;
+	margin: 0 auto;
+}
+
+.music-discography .bandcamp-tile {
+	margin: 6%;
+}
+
+.music-discography .bandcamp-tile iframe {
+	border: 0;
+	width: 230px;
+	height: 230px;
+	max-width: 100%;
+}
+
 
 img {
 	max-width: 100%;
@@ -463,6 +485,11 @@ ul.list-unstyled {
 	font-size:  1.5em;
 	margin-top: 0.4em;
 }
+
+/*.music-discography .bandcamp-tile iframe {
+	width: 250px;
+	height: 250px;
+}*/
 
 /* Link Tiles (Linktree style) */
 ul.link-tiles {
@@ -746,7 +773,21 @@ div.spotify-player iframe{
 		font-size: 1.8em;
 	}
 
-	.musicWrapper {
+
+	.music-discography h2 {
+		font-size: 2em;
+	}
+
+	.music-discography .bandcamp-tile {
+		margin: 30px;
+	}
+
+	.music-discography .bandcamp-tile iframe {
+		width: 300px;
+		height: 300px;
+	}
+
+	/*.musicWrapper {
 		position: relative;
 		padding-bottom: 140%;
 		padding-top: 25px;
@@ -758,7 +799,7 @@ div.spotify-player iframe{
 		left: 0;
 		width: 100%;
 		height: 100%;
-	}
+	}*/
 
 	.navfont {
 		font-size: 0.9em;
@@ -850,6 +891,10 @@ div.spotify-player iframe{
 	}
 
 	.page-banner {
+		min-height: 680px;
+	}
+
+	.home-page-banner {
 		height: 80vh;
 	  max-height: 780px;
 	}
@@ -859,7 +904,7 @@ div.spotify-player iframe{
 	}
 
 	.page-banner-text p {
-		font-size: 1.4em;
+		font-size: 1.3em;
 	}
 
 	.tile-grid .tile {
@@ -870,7 +915,17 @@ div.spotify-player iframe{
 		margin-right: 8rem;
 	}
 
-	.musicWrapper {
+	.music-discography {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	.music-discography .bandcamp-tile iframe {
+		width: 340px;
+		height: 340px;
+	}
+
+/*	.musicWrapper {
 		position: relative;
 		padding-bottom: 120%;
 		padding-top: 25px;
@@ -883,7 +938,7 @@ div.spotify-player iframe{
 		left: 0;
 		width: 100%;
 		height: 100%;
-	}
+	}*/
 
 	.navfont {
 		font-size: 0.9em;
@@ -966,6 +1021,11 @@ div.spotify-player iframe{
 	}
 	.navmenuitem {
 		min-width: 100px;
+	}
+
+	.music-discography .bandcamp-tile iframe {
+		width: 350px;
+		height: 350px;
 	}
 
 }
