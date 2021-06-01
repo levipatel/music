@@ -188,36 +188,58 @@ a:active {
 
 
 /* Home Page Banner */
-.home-page-banner {
+.page-banner {
 	width: 100%;
 	display: flex;
-  background: url(images/home/levipatel18-dark.jpg) no-repeat center center fixed;
+  background: url(images/banners/levipatel18-dark.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-.home-page-banner-text {
+.music-page-banner {
+	background: url(images/banners/levipatel17.jpg) no-repeat center center fixed;
+}
+
+.page-banner-text {
 	color: white;
-	max-width: 600px;
+	max-width: 640px;
 	margin: auto;
 	padding: 5%;
 }
 
-.home-page-banner-text h1 {
+.page-banner-text h1 {
 	font-size:  1.1em;
+}
+
+.page-banner iframe {
+	width: 100%;
+	border-radius: 3px;
+}
+
+.page-banner iframe .PAGE, .page-banner iframe .embed-footer {
+	background-color: rgba(255, 255, 255, 0.7);	
+}
+
+.page-banner iframe .embed-footer__border {
+	display:  none;
 }
 
 
 /* Tile Grid */
 
+.tile-grid-section {
+	background: rgba(255, 255, 255, 0.9);
+}
+
 .tile-grid {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	background: rgba(255, 255, 255, 0.9);
 	padding: 30px 0;
+	max-width: 1200px;
+	margin: 0 auto;
 }
 
 .tile-grid .tile {
@@ -335,6 +357,14 @@ a:active {
 	max-width: 850px;
 }
 
+.textBG.music-discography {
+	text-align: center;
+}
+
+.textBG.music-discography .textBG-content {
+	max-width: 1400px;
+}
+
 img {
 	max-width: 100%;
 }
@@ -425,11 +455,11 @@ ul.list-unstyled {
 	}
 }
 
-.home-page-banner-text {
+.page-banner-text {
 	padding: 14% 5%;
 }
 
-.home-page-banner-text h1 {
+.page-banner-text h1 {
 	font-size:  1.5em;
 	margin-top: 0.4em;
 }
@@ -693,7 +723,7 @@ div.spotify-player iframe{
 		display: none;
 	}
 
-	.home-page-banner-text {
+	.page-banner-text {
 		padding: 18% 3rem;
 	}
 
@@ -819,16 +849,16 @@ div.spotify-player iframe{
 		display: inline;
 	}
 
-	.home-page-banner {
+	.page-banner {
 		height: 80vh;
 	  max-height: 780px;
 	}
 
-	.home-page-banner-text {
+	.page-banner-text {
 		padding: 50px;
 	}
 
-	.home-page-banner-text p {
+	.page-banner-text p {
 		font-size: 1.4em;
 	}
 
