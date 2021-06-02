@@ -198,7 +198,15 @@ a:active {
   background-size: cover;
 }
 
+.page-banner a {
+	text-decoration: none;
+	font-style: normal;
+	color: white;
+}
 
+.page-banner a:hover {
+	color: rgba(255, 255, 255, 0.8);
+}
 
 .music-page-banner {
 	background: url(images/banners/levipatel17.jpg) no-repeat center center fixed;
@@ -224,22 +232,20 @@ a:active {
   background-size: cover;
 }
 
-.contact-page-banner {
-	background: url(images/banners/levipatel22-dark.jpg) no-repeat center center fixed;
+.film-page-banner {
+	background: url(images/banners/film-banner-dark.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-.contact-page-banner a {
-	text-decoration: none;
-	font-style: normal;
-	color: white;
-}
-
-.contact-page-banner a:hover {
-	color: rgba(255, 255, 255, 0.8);
+.contact-page-banner {
+	background: url(images/banners/levipatel22-dark.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .about-page-banner {
@@ -250,14 +256,6 @@ a:active {
   background-size: cover;
 }
 
-.about-page-banner a {
-	color: white;
-	transition-duration: 0.3s;
-}
-
-.about-page-banner a:hover {
-	color: rgba(255, 255, 255, 0.8);
-}
 
 .page-banner-text {
 	color: white;
