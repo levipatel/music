@@ -232,6 +232,16 @@ a:active {
   background-size: cover;
 }
 
+.contact-page-banner a {
+	text-decoration: none;
+	font-style: normal;
+	color: white;
+}
+
+.contact-page-banner a:hover {
+	color: rgba(255, 255, 255, 0.8);
+}
+
 .about-page-banner {
 	background: url(images/banners/levipatel7-dark.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
@@ -242,6 +252,7 @@ a:active {
 
 .about-page-banner a {
 	color: white;
+	transition-duration: 0.3s;
 }
 
 .about-page-banner a:hover {
@@ -343,12 +354,6 @@ a:active {
 	padding: 3%;
 }
 
-/*.musicContainer {
-	text-align:center;
-	background:rgba(255, 255, 255, 0.9);
-	padding-bottom: 1%;
-}*/
-
 .videoWrapper {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
@@ -391,6 +396,10 @@ a:active {
 	max-width: 850px;
 }
 
+.textBG-content img {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
 
 .music-discography {
 	background: rgba(255, 255, 255, 0.9);
@@ -433,6 +442,7 @@ a:active {
 	width: 230px;
 	height: 230px;
 	max-width: 100%;
+	border-radius: 2px;
 }
 
 
@@ -440,9 +450,13 @@ img {
 	max-width: 100%;
 }
 
-/*#artlist {
-	background: rgba(255, 255, 255, 0.9);
-}*/
+p.pad-top {
+	padding-top: 15px;
+}
+
+p.pad-bottom {
+	padding-bottom: 15px;
+}
 
 ul.list-unstyled {
 	list-style: none;
@@ -535,11 +549,6 @@ ul.list-unstyled {
 	margin-top: 0.4em;
 }
 
-/*.music-discography .bandcamp-tile iframe {
-	width: 250px;
-	height: 250px;
-}*/
-
 /* Link Tiles (Linktree style) */
 ul.link-tiles {
 	list-style: none;
@@ -601,20 +610,7 @@ ul.share-buttons .sr-only{
 	font-style: normal;
 }
 
-/*.gridContainer {
-	margin-left: auto;
-	margin-right: auto;
-	width: 86.45%;
-
-	clear: none;
-	float: none;
-}*/
-
 .grid-container {
-	/*margin-left: auto;*/
-	/*margin-right: auto;*/
-	/*width: 86.45%;*/
-
 	clear: none;
 	float: none;
 }
@@ -661,6 +657,15 @@ div#contact {
 	flex-shrink: 0; /* Keep footer on the bottom of pages with little content */
 }
 
+#footer .footer-email {
+	padding-top: 10px;
+}
+
+#footer .footer-email a {
+	text-decoration: none;
+	font-style: normal;
+}
+
 
 #icons {
 	position: relative;
@@ -673,6 +678,11 @@ div#contact {
 	max-width: 36px;
 	max-height: 36px;
 	padding: 0 8px;
+	transition-duration: 0.3s;
+}
+
+.icon:hover {
+	filter: brightness(2);
 }
 
 .menuitem {
@@ -707,11 +717,6 @@ div#contact {
 	padding-top: 23px;
 }
 
-/*.gridContainer.clearfix {
-	width: 100%;
-	min-height: 0px;
-}*/
-
 .grid-container.clearfix {
 	width: 100%;
 	min-height: 0px;
@@ -725,24 +730,6 @@ div#contact {
 	padding-left: 2%;
 	width: 45%;
 }
-
-/*.art {
-	clear: right;
-	padding-top: 2%;
-	padding-right: 2%;
-	padding-bottom: 2%;
-	padding-left: 2%;
-	width: 45%;
-}
-.art-intext {
-	clear: right;
-	float: left;
-	padding-top: 20px;
-	padding-right: 20px;
-	padding-bottom: 20px;
-	padding-left: 20px;
-	width: 45%;
-}*/
 
 .zeroMargin_mobile {
 	margin-left: 0;
@@ -836,20 +823,6 @@ div.spotify-player iframe{
 		height: 300px;
 	}
 
-	/*.musicWrapper {
-		position: relative;
-		padding-bottom: 140%;
-		padding-top: 25px;
-		height: 0;
-	}
-	.musicWrapper iframe {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-	}*/
-
 	.navfont {
 		font-size: 0.9em;
 	}
@@ -870,13 +843,6 @@ div.spotify-player iframe{
 		padding-right: 3%;
 	}
 
-/*	.gridContainer {
-		width: 90.675%;
-		clear: none;
-		float: none;
-		margin: auto;
-	}*/
-
 	.grid-container {
 		/*width: 90.675%;*/
 		clear: none;
@@ -895,17 +861,8 @@ div.spotify-player iframe{
 	}
 
 	.textBG {
-		/*padding: 4%;*/
-		/*padding-left: 8%;*/
-		/*padding-right: 8%;*/
-		/*margin-top: 1.5%;*/
-		/*margin-left: auto;*/
-		/*margin-right: auto;*/
-
 		padding: 0;
-		/*margin: 0;*/
 		width: 100%;
-		/*max-width: 100%;*/
 	}
 
 	.textBG-content {
@@ -974,21 +931,6 @@ div.spotify-player iframe{
 		height: 340px;
 	}
 
-/*	.musicWrapper {
-		position: relative;
-		padding-bottom: 120%;
-		padding-top: 25px;
-		height: 0;
-	}
-
-	.musicWrapper iframe {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-	}*/
-
 	.navfont {
 		font-size: 0.9em;
 	}
@@ -1007,34 +949,13 @@ div.spotify-player iframe{
 		padding: 1.5rem 0;
 	}
 
-	/*.gridContainer {
-		width: 88.5%;
-		max-width: 1232px;
-		padding-left: 0.75%;
-		padding-right: 0.75%;
-		margin: auto;
-		clear: none;
-		float: none;
-		margin-left: auto;
-	}*/
-
 		.grid-container {
-		/*width: 88.5%;*/
-		/*max-width: 1232px;*/
-		/*padding-left: 0.75%;*/
-		/*padding-right: 0.75%;*/
-		/*margin: auto;*/
 		clear: none;
 		float: none;
-		/*margin-left: auto;*/
 	}
 
 	.main-section {
-		/*width: 90%;*/
-		/*margin-left: 1.6949%;*/
 		clear: none;
-		/*background-color: undefined;*/
-		/*width:  100%;*/
 	}
 
 	#homemainsection {
