@@ -737,10 +737,13 @@ div#contact {
 .hide_mobile {
 	display: none;
 }
+
 #logo {
 	width:38%;
 	max-width: 198px;
+	height: 100%;
 }
+
 #mc_embed_signup {
 	width: 100%;
 }
