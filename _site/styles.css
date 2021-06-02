@@ -233,7 +233,7 @@ a:active {
 }
 
 .film-page-banner {
-	background: url(images/banners/film-banner-dark.jpg) no-repeat center center fixed;
+	background: url(images/banners/film-banner.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
