@@ -599,6 +599,11 @@ ul.link-tiles a {
 	}
 }
 
+.release-intro-text {
+	margin: 0 auto;
+	max-width: 700px;
+}
+
 img.release-artwork {
 	max-height: 300px;
 }
