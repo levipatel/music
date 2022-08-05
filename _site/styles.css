@@ -547,6 +547,9 @@ ul.list-unstyled {
 	margin-top: 0.4em;
 }
 
+
+
+
 /* Link Tiles (Linktree style) */
 ul.link-tiles {
 	list-style: none;
@@ -570,6 +573,54 @@ ul.link-tiles img {
 ul.link-tiles a {
 	display: inline-block;
 	padding-bottom: 0.5rem;
+}
+
+
+
+
+/* Release Page */
+.release-page {
+	text-align: center;
+}
+
+.release-introduction h1 {
+	font-size: 1.2em;
+}
+
+@media only screen and (min-width: 814px) {
+	.release-introduction h1 {
+		margin-top: 0;
+		margin-bottom: 0;
+		font-size: 1.5em;
+	}
+
+	.release-introduction h3 {
+		margin-top: 10px;
+	}
+}
+
+img.release-artwork {
+	max-height: 300px;
+}
+
+@media only screen and (min-width: 814px) {
+	img.release-artwork {
+		max-height: 400px;
+	}
+}
+
+.release-links {
+	text-align: left;
+	max-width: 250px;
+	margin: 0 auto;
+}
+
+ul.release-links li {
+	padding-bottom: 0;
+}
+
+.release-links img {
+	width: 60px;
 }
 
 
