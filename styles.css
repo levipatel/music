@@ -399,6 +399,10 @@ a:active {
 	padding-bottom: 15px;
 }
 
+.textBG-content.mailchimp-content {
+	text-align: left;
+}
+
 .music-discography {
 	background: rgba(255, 255, 255, 0.9);
 	padding-top: 40px;
@@ -551,13 +555,29 @@ ul.list-unstyled {
 
 
 /* Link Tiles (Linktree style) */
+.textBG-content.link-page-content {
+	text-align: center;
+	overflow: hidden;
+	max-width: 800px;
+}
+
+.textBG-content.link-page-content h1 {
+	text-align: center;
+}
+
+@media only screen and (min-width: 814px) {
+	.textBG-content.link-page-content {
+		text-align: left;
+	}
+}
+
 ul.link-tiles {
 	list-style: none;
 	padding-left: 0;
 }
 
 ul.link-tiles li {
-	padding-bottom: 1.5rem;
+	margin-bottom: 2rem;
 }
 
 ul.link-tiles li:last-of-type {
@@ -565,14 +585,20 @@ ul.link-tiles li:last-of-type {
 }
 
 ul.link-tiles img {
-	max-height: 90px;
-	padding-right: 1rem;
-	padding-bottom: 0.5rem;
+	max-height: 300px;
+	margin-right: 2.5rem;
+	margin-bottom: 0.6rem;
 }
 
 ul.link-tiles a {
 	display: inline-block;
 	padding-bottom: 0.5rem;
+	font-size: 1.4rem;
+}
+
+a.link-text {
+	width: 410px;
+	max-width: 100%;
 }
 
 
