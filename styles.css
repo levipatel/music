@@ -585,9 +585,32 @@ ul.link-tiles li:last-of-type {
 }
 
 ul.link-tiles img {
-	max-height: 300px;
-	margin-right: 2.5rem;
+	max-height: 280px;
 	margin-bottom: 0.6rem;
+}
+
+@media only screen and (min-width: 814px) {
+	ul.link-tiles img {
+		max-height: 264px;
+	}
+}
+
+@media only screen and (min-width: 960px) {
+	ul.link-tiles img {
+		max-height: 300px;
+	}
+}
+
+@media only screen and (min-width: 481px) {
+	ul.link-tiles img {
+		margin-right: 1.5rem;
+	}
+}
+
+@media only screen and (min-width: 960px) {
+	ul.link-tiles img {
+		margin-right: 2.5rem;
+	}
 }
 
 ul.link-tiles a {
