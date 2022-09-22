@@ -585,7 +585,7 @@ ul.link-tiles li:last-of-type {
 }
 
 ul.link-tiles img {
-	max-height: 280px;
+	max-height: 256px;
 	margin-bottom: 0.6rem;
 }
 
