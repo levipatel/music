@@ -377,7 +377,7 @@ a:active {
 }
 
 .darker-background {
-	background: rgba(255, 255, 255, 0.7);
+	background: rgba(255, 255, 255, 0.75);
 }
 
 .textBG-content {
@@ -585,7 +585,7 @@ ul.link-tiles li:last-of-type {
 }
 
 ul.link-tiles img {
-	max-height: 280px;
+	max-height: 256px;
 	margin-bottom: 0.6rem;
 }
 
