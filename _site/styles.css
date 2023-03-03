@@ -395,8 +395,9 @@ a:active {
 }
 
 .textBG-content img {
-	padding-top: 15px;
-	padding-bottom: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	/*border-radius: 2px;*/
 }
 
 .textBG-content.mailchimp-content {
@@ -480,6 +481,11 @@ ul.list-unstyled {
 	padding-bottom: 15px;
 }
 
+
+.press-kit-music .videoWrapper {
+	margin-bottom: 25px;
+}
+
 .press-kit-music iframe {
 	padding-right: 8px;
 	padding-bottom: 15px;
@@ -492,6 +498,9 @@ ul.list-unstyled {
 	}
 }
 
+.press-kit-music .videoWrapper iframe {
+	max-width: 878px;
+}
 
 
 
