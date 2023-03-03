@@ -483,7 +483,7 @@ ul.list-unstyled {
 /* Not entire screen size section, just for one specific rule */
 @media only screen and (min-width: 651px) {
 	.press-kit-section, .content-section {
-		padding-bottom: 35px;
+		padding-bottom: 30px;
 	}
 }
 
