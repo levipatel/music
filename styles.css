@@ -377,7 +377,7 @@ a:active {
 }
 
 .darker-background {
-	background: rgba(255, 255, 255, 0.75);
+	background: rgba(255, 255, 255, 0.8);
 }
 
 .textBG-content {
@@ -399,9 +399,133 @@ a:active {
 	margin-bottom: 15px;
 }
 
-.textBG-content.mailchimp-content {
-	text-align: left;
+
+
+/* ----- Mailchimp ------ */
+
+.mailchimp-content #mc_embed_signup {
+	max-width: 80%;
+	padding: 30px 20px;
+	margin-top: 30px;
+	border-radius: 6px;
+	background-color: rgba(255, 255, 255, 0.8);;
+	box-shadow: 0 4px 12px #241c151f;
+	transition: all .3s ease-in-out;
+	width: fit-content;
 }
+
+@media only screen and (min-width: 310px) {
+	.mailchimp-content #mc_embed_signup {
+			max-width: 100%;
+	}
+}
+
+@media only screen and (min-width: 490px) {
+	.mailchimp-content #mc_embed_signup {
+		padding: 30px 90px;
+	}
+}
+
+.mailchimp-content #mc_embed_signup form {
+	padding-top: 0;
+}
+
+.mailchimp-content #mc_embed_signup form .mc-field-group {
+	padding-bottom: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+	max-width: 500px;
+}
+
+.mailchimp-content #mc_embed_signup form .mc-field-group label {
+	min-width: 114px;
+	text-align: center;
+}
+
+@media only screen and (min-width: 490px) {
+	.mailchimp-content #mc_embed_signup form .mc-field-group {
+		justify-content: unset;
+	}
+
+	.mailchimp-content #mc_embed_signup form .mc-field-group label {
+		width: 130px;
+		text-align: left;
+	}
+}
+
+
+.mailchimp-content #mc_embed_signup form .mailchimp-text-input {
+	background-color: white;
+	border-color: #E8E8E8;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 4px;
+	line-height: 1.6;
+	width: 216px;
+	max-width: 95%;
+}
+
+/* Text field after invalid submission */
+.mailchimp-content #mc_embed_signup form .mc-field-group input.mce_inline_error {
+	background-color: #f0dddd;
+}
+
+/* Help text beneath invalid text field */
+.mailchimp-content #mc_embed_signup form .mc-field-group div.mce_inline_error {
+	background-color: #999;
+	margin-top: 1em;
+	margin-bottom: 0;
+}
+
+
+.mailchimp-content #mc_embed_signup .submit-button-container {
+	text-align: center;
+	margin-top: 10px;
+	display: flex;
+}
+
+.mailchimp-content #mc_embed_signup .submit-button-container #mc-embedded-subscribe {
+	display: block;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: smaller;
+	padding: 14px 26px;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 4px;
+	border-color: rgba(0, 0, 0, 0.2);
+	background-color: rgba(255, 255, 255, 0.9) !important;
+	transition: 0.3s;
+	color: #222;
+	height: fit-content;
+	width: 222px;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media only screen and (min-width: 490px) {
+	.mailchimp-content #mc_embed_signup .submit-button-container {
+		/*justify-content: center;*/
+	}
+
+	.mailchimp-content #mc_embed_signup .submit-button-container #mc-embedded-subscribe {
+		width: auto;
+		padding: 14px 46px;
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+
+
+.mailchimp-content #mc_embed_signup .submit-button-container #mc-embedded-subscribe:hover {
+	background-color: #E9E9E9E9 !important;
+}
+
+
+/* ------ Discography ------ */
 
 .music-discography {
 	background: rgba(255, 255, 255, 0.9);
@@ -410,7 +534,7 @@ a:active {
 }
 
 .music-discography.darker-background {
-	background: rgba(255, 255, 255, 0.7);
+	background: rgba(255, 255, 255, 0.8);
 }
 
 .music-discography h2 {
@@ -871,21 +995,6 @@ div#contact {
 	height: 100%;
 }
 
-#mc-embedded-subscribe {
-	padding: 5px 20px;
-	transition-duration: 0.3s;
-	background-color: rgba(255, 255, 255, 0.9);
-}
-
-#mc-embedded-subscribe:hover {
-	background-color: rgba(255, 255, 255, 0.4);
-}
-
-#mce-EMAIL {
-	width: 200px;
-	max-width: 100%;
-	line-height: 1.6;
-}
 
 #mainnav {
 	display: none;
