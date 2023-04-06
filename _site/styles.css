@@ -37,6 +37,7 @@ a {
 	color: #000000;
 	text-decoration: underline;
 	font-style: italic;
+	transition-duration: 0.2s;
 }
 
 a:link{
@@ -319,6 +320,7 @@ a:active {
 	object-fit: cover;
 	filter: brightness(0.5);
 	border-radius: 3px;
+	box-shadow: 0 4px 12px #241c151f;
 }
 
 .tile-grid .tile h2 {
@@ -403,7 +405,17 @@ a:active {
 
 /* ----- Mailchimp ------ */
 
-.mailchimp-content #mc_embed_signup {
+.mailchimp-minimal {
+    display: flex;
+    justify-content: center;
+}
+
+/* Prevent email field overflowing on tiny screens */
+.mailchimp-minimal #mc_embed_signup, .mailchimp-minimal #mc_embed_signup form .mailchimp-text-input {
+    max-width: 92%;
+}
+
+.mailchimp-full #mc_embed_signup {
 	max-width: 80%;
 	padding: 30px 20px;
 	margin-top: 30px;
@@ -415,22 +427,34 @@ a:active {
 }
 
 @media only screen and (min-width: 310px) {
-	.mailchimp-content #mc_embed_signup {
+	.mailchimp-full #mc_embed_signup {
 			max-width: 100%;
 	}
 }
 
 @media only screen and (min-width: 490px) {
-	.mailchimp-content #mc_embed_signup {
+	.mailchimp-full #mc_embed_signup {
+		padding: 30px 32px;
+	}
+}
+
+/* Specific size just for this rule */
+@media only screen and (min-width: 610px) {
+	.mailchimp-full #mc_embed_signup {
 		padding: 30px 90px;
 	}
 }
 
-.mailchimp-content #mc_embed_signup form {
+.mailchimp-full #mc_embed_signup form {
 	padding-top: 0;
 }
 
-.mailchimp-content #mc_embed_signup form .mc-field-group {
+.mailchimp-full #mc_embed_signup form .mc-field-group,
+	.mailchimp-minimal #mc_embed_signup form .mc-field-group {
+	position: relative;
+}
+
+.mailchimp-full #mc_embed_signup form .mc-field-group {
 	padding-bottom: 20px;
 	display: flex;
 	flex-wrap: wrap;
@@ -439,89 +463,187 @@ a:active {
 	max-width: 500px;
 }
 
-.mailchimp-content #mc_embed_signup form .mc-field-group label {
-	min-width: 114px;
+.mailchimp-full #mc_embed_signup form .mc-field-group label {
+	min-width: 124px;
 	text-align: center;
 }
 
+#mc_embed_signup form .mc-field-group label.inside-label {
+	position: absolute;
+  top: 2px;
+  left: 6px;
+  font-size: small;
+}
+
 @media only screen and (min-width: 490px) {
-	.mailchimp-content #mc_embed_signup form .mc-field-group {
+	.mailchimp-full #mc_embed_signup form .mc-field-group {
 		justify-content: unset;
+		flex-wrap: nowrap;
 	}
 
-	.mailchimp-content #mc_embed_signup form .mc-field-group label {
+	.mailchimp-full #mc_embed_signup form .mc-field-group label {
 		width: 130px;
 		text-align: left;
 	}
 }
 
-
-.mailchimp-content #mc_embed_signup form .mailchimp-text-input {
-	background-color: white;
+/* All form text input */
+.mailchimp-full #mc_embed_signup form .mailchimp-text-input,
+	.mailchimp-minimal #mc_embed_signup form .mailchimp-text-input {
 	border-color: #E8E8E8;
 	border-style: solid;
 	border-width: 1px;
 	border-radius: 4px;
-	line-height: 1.6;
-	width: 216px;
-	max-width: 95%;
 }
 
+/* Large form text input */
+.mailchimp-full #mc_embed_signup form .mailchimp-text-input {
+	background-color: white;
+	width: 216px;
+	max-width: 95%;
+	line-height: 1.6;
+}
+
+/* Minimal form text input */
+.mailchimp-minimal #mc_embed_signup form .mailchimp-text-input {
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 20px 8px 3px 8px;
+  width: 220px;
+  max-width: 100%;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+@media only screen and (min-width: 490px) {
+	.mailchimp-minimal #mc_embed_signup form .mailchimp-text-input {
+		border-right: none;
+	  border-top-right-radius: 0;
+	  border-bottom-right-radius: 0;
+	}
+}
+
+
 /* Text field after invalid submission */
-.mailchimp-content #mc_embed_signup form .mc-field-group input.mce_inline_error {
+.mailchimp-full #mc_embed_signup form .mc-field-group input.mce_inline_error,
+	.mailchimp-minimal #mc_embed_signup form .mc-field-group input.mce_inline_error {
 	background-color: #f0dddd;
 }
 
 /* Help text beneath invalid text field */
-.mailchimp-content #mc_embed_signup form .mc-field-group div.mce_inline_error {
+.mailchimp-full #mc_embed_signup form .mc-field-group div.mce_inline_error {
 	background-color: #999;
 	margin-top: 1em;
 	margin-bottom: 0;
 }
 
 
-.mailchimp-content #mc_embed_signup .submit-button-container {
+.mailchimp-full #mc_embed_signup .submit-button-container {
 	text-align: center;
 	margin-top: 10px;
 	display: flex;
 }
 
-.mailchimp-content #mc_embed_signup .submit-button-container #mc-embedded-subscribe {
-	display: block;
+
+/* All subscribe buttons */
+.mailchimp-minimal #mc_embed_signup .submit-button-container #mc-embedded-subscribe, 
+	.mailchimp-full #mc_embed_signup .submit-button-container #mc-embedded-subscribe {
 	text-transform: uppercase;
 	font-weight: bold;
-	font-size: smaller;
-	padding: 14px 26px;
+	font-size: medium;
 	border-style: solid;
 	border-width: 1px;
-	border-radius: 4px;
-	border-color: rgba(0, 0, 0, 0.2);
-	background-color: rgba(255, 255, 255, 0.9) !important;
+	border-color: rgba(0, 0, 0, 0.4);
 	transition: 0.3s;
 	color: #222;
 	height: fit-content;
-	width: 222px;
 	max-width: 100%;
+}
+
+/* Large form subscribe button only */
+.mailchimp-full #mc_embed_signup .submit-button-container #mc-embedded-subscribe {
+	display: block;
+	padding: 14px 26px;
+	border-radius: 4px;
+	width: 222px;
 	margin-left: auto;
 	margin-right: auto;
+	background-color: rgba(255, 255, 255, 0.9) !important;
+}
+
+/* Minimal form subscribe button only */
+.mailchimp-minimal #mc_embed_signup .submit-button-container #mc-embedded-subscribe {
+	padding: 14.5px 24px;
+  color: white;
+  background-color: rgba(20, 20, 20, 0.85);
+  width: 236px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
 }
 
 @media only screen and (min-width: 490px) {
-	.mailchimp-content #mc_embed_signup .submit-button-container {
-		/*justify-content: center;*/
-	}
-
-	.mailchimp-content #mc_embed_signup .submit-button-container #mc-embedded-subscribe {
+	.mailchimp-full #mc_embed_signup .submit-button-container #mc-embedded-subscribe {
 		width: auto;
 		padding: 14px 46px;
 		margin-left: 0;
 		margin-right: 0;
 	}
+
+	.mailchimp-minimal #mc_embed_signup .submit-button-container #mc-embedded-subscribe {
+		width: auto;
+		border-top-left-radius: 0;
+	  border-bottom-left-radius: 0;
+	  border: none;
+	}
 }
 
 
-.mailchimp-content #mc_embed_signup .submit-button-container #mc-embedded-subscribe:hover {
+/* Full size subscription button on hover */
+.mailchimp-full #mc_embed_signup .submit-button-container #mc-embedded-subscribe:hover {
 	background-color: #E9E9E9E9 !important;
+}
+
+/* Minimal subscription button on hover */
+.mailchimp-minimal #mc_embed_signup .submit-button-container #mc-embedded-subscribe:hover {
+	background-color: rgba(80, 80, 80, 0.85);
+}
+
+
+.mailchimp-minimal #mc_embed_signup_scroll {
+	box-shadow: 0 4px 12px #241c151f;
+}
+
+@media only screen and (min-width: 490px) {
+	.mailchimp-minimal #mc_embed_signup_scroll {
+		display: flex;
+	}
+}
+
+
+/* ---- Discord Button ----- */
+
+.discord-button {
+	display: block;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: medium;
+	font-style: normal;
+	transition: 0.3s;
+	color: #222;
+	height: fit-content;
+	padding: 14px 26px;
+	border-radius: 4px;
+	width: fit-content;
+	margin-top: 24px;
+	box-shadow: 0 4px 12px #241c151f;
+	background-color: rgba(255, 255, 255, 0.75);
+}
+
+.discord-button:hover {
+	color: #222;
+	background-color: rgba(235, 235, 235, 0.75);
 }
 
 
@@ -830,6 +952,11 @@ ul.share-buttons li{
   display: inline;
 }
 
+ul.share-buttons img {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
 ul.share-buttons .sr-only{
   position: absolute;
   clip: rect(1px 1px 1px 1px);
@@ -895,18 +1022,23 @@ div#contact {
 
 #footer {
 	background-color: rgba(255,255,255,0.70);
-	padding: 1rem 0;
+	padding: 1.8rem 0;
 	text-align: center;
 	flex-shrink: 0; /* Keep footer on the bottom of pages with little content */
 }
 
 #footer .footer-email {
-	padding-top: 10px;
+	padding-top: 16px;
 }
 
 #footer .footer-email a {
 	text-decoration: none;
 	font-style: normal;
+	font-size: 21px;
+}
+
+#footer .footer-email a:hover {
+	color: #7F7F7F;
 }
 
 
@@ -918,10 +1050,18 @@ div#contact {
 .icon {
 	width: 20%;
 	height: 20%;
-	max-width: 33px;
-	max-height: 33px;
-	padding: 0 6px;
+	max-width: 30px;
+	max-height: 30px;
+	padding: 0 5px;
 	transition-duration: 0.3s;
+}
+
+@media only screen and (min-width: 350px) {
+	.icon {
+		max-width: 33px;
+		max-height: 33px;
+		padding: 0 6px;
+	}
 }
 
 @media only screen and (min-width: 490px) {
