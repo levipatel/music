@@ -614,10 +614,6 @@ a:active {
 }
 
 
-.mailchimp-minimal #mc_embed_signup_scroll {
-	box-shadow: 0 4px 12px #241c151f;
-}
-
 @media only screen and (min-width: 490px) {
 	.mailchimp-minimal #mc_embed_signup_scroll {
 		display: flex;
