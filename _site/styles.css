@@ -538,6 +538,10 @@ a:active {
 	margin-bottom: 0;
 }
 
+.mailchimp-minimal #mc_embed_signup form .mc-field-group div.mce_inline_error {
+	background-color: #444;
+}
+
 
 .mailchimp-full #mc_embed_signup .submit-button-container {
 	text-align: center;
