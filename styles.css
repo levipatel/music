@@ -521,6 +521,7 @@ a:active {
 		border-right: none;
 	  border-top-right-radius: 0;
 	  border-bottom-right-radius: 0;
+	  border-bottom-left-radius: 4px;
 	}
 }
 
@@ -598,6 +599,7 @@ a:active {
 		width: auto;
 		border-top-left-radius: 0;
 	  border-bottom-left-radius: 0;
+	  border-top-right-radius: 4px;
 	  border: none;
 	}
 }
