@@ -472,7 +472,7 @@ a:active {
 	position: absolute;
   top: 2px;
   left: 6px;
-  font-size: small;
+  font-size: medium;
 }
 
 @media only screen and (min-width: 490px) {
@@ -507,7 +507,7 @@ a:active {
 /* Minimal form text input */
 .mailchimp-minimal #mc_embed_signup form .mailchimp-text-input {
 	background-color: rgba(255, 255, 255, 0.8);
-	padding: 20px 8px 3px 8px;
+	padding: 24px 8px 7px 8px;
   width: 220px;
   max-width: 100%;
   border-bottom-left-radius: 0;
@@ -530,6 +530,10 @@ a:active {
 .mailchimp-full #mc_embed_signup form .mc-field-group input.mce_inline_error,
 	.mailchimp-minimal #mc_embed_signup form .mc-field-group input.mce_inline_error {
 	background-color: #f0dddd;
+}
+
+.mailchimp-minimal #mc_embed_signup form .mc-field-group input.mce_inline_error {
+	max-width: 220px;
 }
 
 /* Help text beneath invalid text field */
@@ -601,6 +605,7 @@ a:active {
 	  border-bottom-left-radius: 0;
 	  border-top-right-radius: 4px;
 	  border: none;
+	  padding: 19px 24px;
 	}
 }
 
