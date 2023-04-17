@@ -1002,7 +1002,13 @@ ul.share-buttons .sr-only{
 
 #mainheader #navigation {
 	float: right;
-	margin-right: 3rem;
+	margin-right: 2rem;
+}
+
+@media only screen and (min-width: 960px) {
+	#mainheader #navigation {
+		margin-right: 3rem;
+	}
 }
 
 .logo-header {
