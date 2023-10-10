@@ -946,6 +946,14 @@ ul.release-links li {
 	width: 60px;
 }
 
+ul.release-tracklist {
+	text-align: left;
+	list-style: none;
+	width: 400px;
+	max-width: 90%;
+	margin: 30px auto;
+}
+
 
 /* Simple Sharing Buttons social media sharing icons, primarily for Blog */
 ul.share-buttons{
