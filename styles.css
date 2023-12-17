@@ -192,7 +192,8 @@ a:active {
 .page-banner {
 	width: 100%;
 	display: flex;
-  background: url(images/banners/levipatel18-dark.jpg) no-repeat center center fixed;
+  /* background: url(images/banners/levipatel18-dark.jpg) no-repeat center center fixed; */
+  background: url(images/banners/levipatel-window-blue-dark.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
