@@ -3,7 +3,7 @@ layout: post
 title: Liuzhou, China
 categories: [blog]
 tags: [China, Travel]
-preview: Darude Sandstorm, album update, and the most beautiful and snail-obsessed city I've ever been to.
+preview: Darude Sandstorm, album update, and the most beautiful and most snail-obsessed city I've ever been to.
 ---
 
 I hope you’re well, and happy new year!
@@ -55,5 +55,5 @@ Thanks so much for reading, and all the best for now,
 Levi
 
 <p align="center">
-  <img src="{{ site.baseurl }}/images/blog/liuzhou/liuzhou-sunset.jpg" alt="Sunset over Liuzhou" class="blog-image">
+  <img src="{{ site.baseurl }}/images/blog/liuzhou/liuzhou-sunset.jpg" alt="Sunset over Liuzhougit" class="blog-image">
 </p>

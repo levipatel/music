@@ -629,9 +629,9 @@ a:active {
 }
 
 
-/* ---- Discord Button ----- */
+/* ---- Discord Button and Blog Button ----- */
 
-.discord-button {
+.discord-button, .blog-button {
 	display: block;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -649,7 +649,7 @@ a:active {
 	background-color: rgba(255, 255, 255, 0.75);
 }
 
-.discord-button:hover {
+.discord-button:hover, .blog-button:hover {
 	color: #222;
 	background-color: rgba(235, 235, 235, 0.75);
 }
