@@ -654,6 +654,15 @@ a:active {
 	background-color: rgba(235, 235, 235, 0.75);
 }
 
+.blog-button {
+	display: inline-block;
+}
+
+.blog-button-container .blog-button:first-child {
+    margin-right: 20px;
+}
+
+
 
 /* ------ Discography ------ */
 
