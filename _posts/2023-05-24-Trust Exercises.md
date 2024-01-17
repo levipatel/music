@@ -28,3 +28,16 @@ This leap of faith taught me three things. First, it reminded me how inspiring i
 ![Walking Sunset]({{ site.baseurl }}/images/blog/drums/shaker-duet.JPG "Shaker Duet")
 
 📷 Hillary Johnston
+
+
+## Light and Nature
+
+When I’m not being a nerd inside, I love to be a nerd in nature. Specifically, I'm drawn to ethereal lighting and soft, naturally desaturated colours. Sometimes that happens outside my house (and inspires an album), other times it takes me further from home.
+
+![Plane flying over Milford Sound]({{ site.baseurl }}/images/blog/queenstown/milford-sound-plane.jpg "Plane flying over Milford Sound")
+
+I took this photo on a recent trip to Milford Sound, Fiordland, in the south of New Zealand. It’s famous for its dramatic fiords and relentless rain, but so far I've only made it there on clear, sunny days. However, as the sun fell beneath the mountains at the end of my last visit, it produced the most stunning texture, with a perfectly timed takeoff to highlight it.
+
+And if the light happens to fall on a spectacular winery in the region, well it's all part of the process.
+
+![View from Rippon winery over the wines, Lake Wanaka, and mountains]({{ site.baseurl }}/images/blog/queenstown/rippon-winery.jpg "View from Rippon winery over the wines, Lake Wanaka, and mountains")
