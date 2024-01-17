@@ -26,15 +26,16 @@
 
   <title>{{ page.title }}</title>
 
-  <link rel="shortcut icon" href="{{base}}favicon.png" type="image/png">
+  <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.png" type="image/png">
   <link rel="shortcut icon" type="image/png" href="https://levipatel.com/favicon.png" />
-  <link href="{{base}}boilerplate.css" rel="stylesheet" type="text/css">
-  <link href="{{base}}styles.css?v=2.0" rel="stylesheet" type="text/css">
+  <link href="{{ site.baseurl }}/boilerplate.css" rel="stylesheet" type="text/css">
+  <link href="{{ site.baseurl }}/styles.css?v=2.0" rel="stylesheet" type="text/css">
+
 
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
-  <script src="{{base}}respond.min.js"></script>
+  <script src="{{ site.baseurl }}/respond.min.js"></script>
 
 </head>
 <body>
@@ -44,18 +45,17 @@
 
   <header id="mainheader" class="fluid">
 
-    <a href="/" target="_self" class="header-logo"><img id="logo" src="{{base}}images/levipatellogo.png" alt="Levi Patel"/></a>
+    <a href="/" target="_self" class="header-logo"><img id="logo" src="{{ site.baseurl }}/images/levipatellogo.png" alt="Levi Patel"/></a>
    
     <div id="navigation">
       <nav id="mainnav">
         <ul id="menusystem">
-          <!-- <li class="fluid navmenuitem"><a class="navfont" href="{{base}}news" target="_self" title="News">NEWS</a></li> -->
-          <li class="fluid navmenuitem"><a class="navfont" href="{{base}}music" target="_self" title="Music">MUSIC</a></li>
-          <li class="fluid navmenuitem"><a class="navfont" href="{{base}}filmandtv" target="_self" title="Film and TV">FILM/TV</a></li>
-          <li class="fluid navmenuitem"><a class="navfont" href="{{base}}studio" target="_self" title="Studio and Engineering">STUDIO</a></li>
-          <li class="fluid navmenuitem"><a class="navfont" href="{{base}}collaboration" target="_self" title="Collaboration">COLLAB</a></li>
-          <li class="fluid navmenuitem"><a class="navfont" href="{{base}}about" target="_self" title="About">ABOUT</a></li>
-          <li class="fluid navmenuitem" id="contactnav"><a class="navfont" href="{{base}}contact" target="_self" title="Contact">CONTACT</a></li>
+          <li class="fluid navmenuitem"><a class="navfont" href="{{ site.baseurl }}/music" target="_self" title="Music">MUSIC</a></li>
+          <li class="fluid navmenuitem"><a class="navfont" href="{{ site.baseurl }}/filmandtv" target="_self" title="Film and TV">FILM/TV</a></li>
+          <li class="fluid navmenuitem"><a class="navfont" href="{{ site.baseurl }}/studio" target="_self" title="Studio and Engineering">STUDIO</a></li>
+          <li class="fluid navmenuitem"><a class="navfont" href="{{ site.baseurl }}/collaboration" target="_self" title="Collaboration">COLLAB</a></li>
+          <li class="fluid navmenuitem"><a class="navfont" href="{{ site.baseurl }}/about" target="_self" title="About">ABOUT</a></li>
+          <li class="fluid navmenuitem" id="contactnav"><a class="navfont" href="{{ site.baseurl }}/contact" target="_self" title="Contact">CONTACT</a></li>
         </ul>
       </nav>
     </div>
@@ -64,54 +64,54 @@
 
 
   <div id="dropdownmobile">
-        <ul class="navbar">
-         <li>
-            <a target="_self" href="{{base}}music">MUSIC</a>        
-         </li>
-         <li>
-            <a target="_self" href="#">WORK</a>
-            <ul>
-             <li style="width:100%"><a target="_self" href="{{base}}filmandtv">FILM/TV</a></li>
-             <li style="width:100%"><a target="_self" href="{{base}}collaboration">COLLAB</a></li>
-             <li style="width:100%"><a target="_self" href="{{base}}studio">STUDIO</a></li>
-            </ul>         
-         </li>
-         <li>
-          <a target="_self" href="#">INFO</a>
-          <ul>
-             <li style="width:100%"><a target="_self" href="{{base}}about">ABOUT</a></li>
-             <li style="width:100%"><a target="_self" href="{{base}}blog">BLOG</a></li>
-             <!-- <li style="width:100%"><a target="_self" href="{{base}}news">NEWS</a></li> -->
-             <li style="width:100%"><a target="_self" href="{{base}}contact">CONTACT</a></li>
-          </ul>         
-         </li>
-        </ul>
-  </div>
+    <ul class="navbar">
+     <li>
+        <a target="_self" href="{{ site.baseurl }}/music">MUSIC</a>        
+     </li>
+     <li>
+        <a target="_self" href="#">WORK</a>
+        <ul>
+         <li style="width:100%"><a target="_self" href="{{ site.baseurl }}/filmandtv">FILM/TV</a></li>
+         <li style="width:100%"><a target="_self" href="{{ site.baseurl }}/collaboration">COLLAB</a></li>
+         <li style="width:100%"><a target="_self" href="{{ site.baseurl }}/studio">STUDIO</a></li>
+        </ul>         
+     </li>
+     <li>
+      <a target="_self" href="#">INFO</a>
+      <ul>
+         <li style="width:100%"><a target="_self" href="{{ site.baseurl }}/about">ABOUT</a></li>
+         <li style="width:100%"><a target="_self" href="{{ site.baseurl }}/blog">BLOG</a></li>
+         <!-- <li style="width:100%"><a target="_self" href="{{ site.baseurl }}/news">NEWS</a></li> -->
+         <li style="width:100%"><a target="_self" href="{{ site.baseurl }}/contact">CONTACT</a></li>
+      </ul>         
+     </li>
+    </ul>
+</div>
 
 
-  <div id="dropdowntablet">
-        <ul class="navbartablet">
-         <li>
-            <a target="_self" href="{{base}}music">MUSIC</a>
-          </li>
-         <li>
-            <a target="_self" href="{{base}}filmandtv">FILM/TV</a>        
-         </li>
-         <li>
-            <a target="_self" href="{{base}}studio">STUDIO</a> 
-         </li>
-         <li>
-          <a target="_self" href="#">INFO</a>
-          <ul>
-             <li style="width:100%"><a target="_self" href="{{base}}about">ABOUT</a></li>
-             <li style="width:100%"><a target="_self" href="{{base}}collaboration">COLLAB</a></li>
-             <li style="width:100%"><a target="_self" href="{{base}}blog">BLOG</a></li>
-             <li style="width:100%"><a target="_self" href="{{base}}contact">CONTACT</a></li>
-             <!-- <li style="width:100%"><a target="_self" href="{{base}}news">NEWS</a></li> -->
-          </ul>         
-         </li>
-        </ul>
-  </div>
+<div id="dropdowntablet">
+  <ul class="navbartablet">
+   <li>
+      <a target="_self" href="{{ site.baseurl }}/music">MUSIC</a>
+    </li>
+   <li>
+      <a target="_self" href="{{ site.baseurl }}/filmandtv">FILM/TV</a>        
+   </li>
+   <li>
+      <a target="_self" href="{{ site.baseurl }}/studio">STUDIO</a> 
+   </li>
+   <li>
+    <a target="_self" href="#">INFO</a>
+    <ul>
+       <li style="width:100%"><a target="_self" href="{{ site.baseurl }}/about">ABOUT</a></li>
+       <li style="width:100%"><a target="_self" href="{{ site.baseurl }}/collaboration">COLLAB</a></li>
+       <li style="width:100%"><a target="_self" href="{{ site.baseurl }}/blog">BLOG</a></li>
+       <li style="width:100%"><a target="_self" href="{{ site.baseurl }}/contact">CONTACT</a></li>
+       <!-- <li style="width:100%"><a target="_self" href="{{ site.baseurl }}/news">NEWS</a></li> -->
+    </ul>         
+   </li>
+  </ul>
+</div>
 
   <div class="grid-container clearfix">
     <section class="main-section fluid">
