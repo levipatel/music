@@ -1119,13 +1119,19 @@ div#contact {
 	background-color: rgba(255,255,255,0.80);
 }
 
+#menusystem {
+	display: flex;
+  	justify-content: space-between;
+}
+
 .navmenuitem {
 	text-align: center;
-	width: 12%;
-	min-width: 91px;
+	/* width: 12%; */
+	/* min-width: 91px; */
 	clear: right;
-	max-width: 140px;
+	/* max-width: 140px; */
 	padding: 2.8rem 0;
+	margin: 0 0.5rem;
 }
 
 #currentnav {
@@ -1412,7 +1418,8 @@ div.spotify-player iframe{
 		width: 28%;
 	}
 	.navmenuitem {
-		min-width: 100px;
+		/* min-width: 100px; */
+		margin: 0 1.1rem;
 	}
 
 	.music-discography .bandcamp-tile iframe {
