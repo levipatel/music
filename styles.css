@@ -662,6 +662,15 @@ a:active {
     margin-right: 20px;
 }
 
+.blog-button.footer-subscribe-button {
+	color: white;
+	background-color: rgba(20, 20, 20, 0.85);
+}
+
+.blog-button.footer-subscribe-button:hover {
+	background-color: rgba(80, 80, 80, 0.85);
+}
+
 
 
 /* ------ Discography ------ */
