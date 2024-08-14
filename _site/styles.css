@@ -192,12 +192,14 @@ a:active {
 .page-banner {
 	width: 100%;
 	display: flex;
-  background: url(images/banners/levipatel18-dark.jpg) no-repeat center center fixed;
-  /* background: url(images/banners/levipatel-window-blue-dark.jpg) no-repeat center center fixed; */
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	background: url(images/banners/levipatel18-dark.jpg) no-repeat center center fixed;
+
+	/* background: url(images/banners/LeviPatel12-taller.jpg) no-repeat center center; */
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 .page-banner a {
@@ -1339,7 +1341,7 @@ div.spotify-player iframe{
 
 	.home-page-banner {
 		height: 80vh;
-	  max-height: 780px;
+	  	max-height: 780px;
 	}
 
 	.page-banner-text {
