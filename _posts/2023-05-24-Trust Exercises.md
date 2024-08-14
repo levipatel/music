@@ -8,7 +8,7 @@ preview: Capturing an atmosphere, and letting others in.
 
 When creating my own music I often get this strange feeling that I'm not the one making the decisions. Instead, I let the music tell me what it wants, at least when it speaks clearly enough. While in many ways my next album is bringing together all of my past musical experience, my voice isn’t the only new and intimidating element it asked of me.
 
-For my whole musical life the idea of writing drums has intimated me. I’ve enjoyed collaborations with drummers, but whenever I’ve tried myself I felt that somehow they weren’t “proper” drum beats, or that they were missing something. Luckily much of my music doesn't need percussion, but some songs on my next album asked me for drums, and who am I to deny them?
+For my whole musical life the idea of writing drums has intimidated me. I’ve enjoyed collaborations with drummers, but whenever I’ve tried myself I felt that somehow they weren’t “proper” drum beats, or that they were missing something. Luckily much of my music doesn't need percussion, but some songs on my next album asked me for drums, and who am I to deny them?
 
 ![Levi Patel and Ezra Donnelly Discussing Drums]({{ site.baseurl }}/images/blog/drums/levi-ezra-roundhead.JPG "Levi Patel and Ezra Donnelly Discussing Drums")
 
