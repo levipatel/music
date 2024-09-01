@@ -749,6 +749,15 @@ ul.list-unstyled {
 }
 
 
+/* Even out font weight with verlag english font weight */
+.chinese-heading {
+	font-weight: 400;
+}
+
+.chinese-body {
+	font-weight: 350;
+}
+
 /* Press Kit */
 .press-kit-section, .content-section {
 	padding-bottom: 25px;
