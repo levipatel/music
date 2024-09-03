@@ -673,6 +673,10 @@ a:active {
 	background-color: rgba(80, 80, 80, 0.85);
 }
 
+/* Reduce top margin from subscribe button on Contact page */
+.newsletter-contact-button {
+	margin-top: 8px;
+}
 
 
 /* ------ Discography ------ */
