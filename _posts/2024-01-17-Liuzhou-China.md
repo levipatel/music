@@ -14,7 +14,7 @@ My life for the past few months lacked its usual rhythm, while I was focused on 
 
 ![Overview of Liuzhou, China, and surrounding river]({{ site.baseurl }}/images/blog/liuzhou/liuzhou-overview.jpg "Overview of Liuzhou, China, and surrounding river")
 
-## Liuzhou 柳州
+## Liuzhou <span class="chinese-heading">柳州</span>
 
 Knowing very little about what I was getting into, I flew to China to spend five weeks in a relatively small (i.e. almost the population of New Zealand), snail-obsessed city in the southwest called Liuzhou. All I knew was that it was known for car manufacturing, snail rice noodles, and coffins, and that foreigners almost never go there.
 
