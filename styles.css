@@ -276,6 +276,15 @@ a:active {
   background-size: cover;
 }
 
+.blog-page-banner {
+	background: url(images/banners/levipatel17.jpg) no-repeat center center fixed;
+
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 
 .page-banner-text {
 	color: white;
