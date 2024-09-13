@@ -192,9 +192,15 @@ a:active {
 .page-banner {
 	width: 100%;
 	display: flex;
-	background: url(images/banners/levipatel18-dark.jpg) no-repeat center center fixed;
+	
+	/* West coast beach */
+	/* background: url(images/banners/levipatel18-dark.jpg) no-repeat center center fixed; */
 
+	/* Ghost me against night sky */
 	/* background: url(images/banners/LeviPatel12-taller.jpg) no-repeat center center; */
+
+	/* Profile shot in studio */
+	background: url(/images/banners/LeviPatel-7-dark15.jpg) no-repeat center center;
 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
