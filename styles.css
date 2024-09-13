@@ -1129,7 +1129,7 @@ div#contact {
 	margin-bottom: 10px;
 }
 
-#icons.icons-chinese-info-kit {
+#icons.icons-chinese-info-kit, #icons.icons-social-media {
 	display: flex;
 	flex-wrap: wrap;
 }
