@@ -1134,23 +1134,40 @@ div#contact {
 	flex-wrap: wrap;
 }
 
+#icons .icon-only-large-screens {
+	display: none;
+}
 
 
 @media only screen and (min-width: 350px) {
 	.icon {
 		max-width: 33px;
 		max-height: 33px;
-		padding: 0 6px;
+		padding: 0 5px;
 	}
 }
 
 @media only screen and (min-width: 490px) {
+	.icon {
+		max-width: 34px;
+		max-height: 34px;
+		padding: 0 6px;
+	}
+
+	#icons .icon-only-large-screens {
+		display: inline-block;
+	}
+}
+
+
+@media only screen and (min-width: 540px) {
 	.icon {
 		max-width: 36px;
 		max-height: 36px;
 		padding: 0 8px;
 	}
 }
+
 
 .icon:hover {
 	filter: brightness(2);
