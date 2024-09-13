@@ -656,6 +656,10 @@ a:active {
 	background-color: rgba(235, 235, 235, 0.75);
 }
 
+a.header-button {
+	color: #222;
+}
+
 .blog-button {
 	display: inline-block;
 }
