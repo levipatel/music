@@ -192,7 +192,7 @@ a:active {
 .page-banner {
 	width: 100%;
 	display: flex;
-	
+
 	/* West coast beach */
 	/* background: url(images/banners/levipatel18-dark.jpg) no-repeat center center fixed; */
 
@@ -251,7 +251,12 @@ a:active {
 }
 
 .contact-page-banner {
-	background: url(images/banners/levipatel22-dark.jpg) no-repeat center center fixed;
+	/* Ghostly against night sky */
+	background: url(images/banners/LeviPatel12-taller.jpg) no-repeat center center fixed;
+
+	/* West coast beach */
+	/* background: url(images/banners/levipatel18-dark.jpg) no-repeat center center fixed; */
+
 	-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -259,7 +264,12 @@ a:active {
 }
 
 .about-page-banner {
-	background: url(images/banners/levipatel7-dark.jpg) no-repeat center center fixed;
+	/* Standing in front of sunset */
+	/* background: url(images/banners/levipatel7-dark.jpg) no-repeat center center fixed; */
+
+	/* Walking into sunset */
+	background: url(images/banners/LeviPatel1-dark-crop.jpg) no-repeat center center fixed;
+
 	-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
