@@ -189,6 +189,8 @@ a:active {
 
 
 /* Page Banner */
+/* All pages should have custom banners with their own class name and background
+image, with this one only for the Home page, and acting as a default/fallback  */
 .page-banner {
 	width: 100%;
 	display: flex;
@@ -207,6 +209,32 @@ a:active {
 	-o-background-size: cover;
 	background-size: cover;
 }
+
+
+@media only screen and (min-width: 960px) {
+	.home-page-banner {
+		/* Add fixed for large screens (it zooms in too close on mobile) */
+		background: url(/images/banners/LeviPatel-7-dark15.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+}
+
+/* Remove banner cover fixed layout for very large screens because it zooms in on my face too much */
+@media only screen and (min-width: 2000px) {
+	.home-page-banner {
+		/* Add fixed for large screens (it zooms in too close on mobile) */
+		background: url(/images/banners/LeviPatel-7-dark15.jpg) no-repeat center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+}
+
+
 
 .page-banner a {
 	text-decoration: none;
