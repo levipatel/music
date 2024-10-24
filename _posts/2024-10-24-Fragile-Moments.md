@@ -3,7 +3,7 @@ layout: post
 title: Fragile Moments, Now Shared
 categories: [blog]
 tags: [Alayna, Album]
-preview: A live studio performance with Alayna, arranging strings, and how it all starts with Gravity.
+preview: A live studio performance with Alayna, arranging strings, and how it all starts with gravity.
 ---
 
 I’m writing this in what feels like my first quiet moment all year. I am once again sitting and watching the sun set from the hill, only occasionally distracted by this small bird calmly riding on the back of a horse nearby.
