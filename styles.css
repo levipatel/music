@@ -425,6 +425,10 @@ image, with this one only for the Home page, and acting as a default/fallback  *
 	height: 100%;
 }
 
+.video-wrapper-blog-post {
+	max-width: 850px;
+	margin-bottom: 24px
+}
 
 
 .textBG {
