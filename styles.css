@@ -1320,6 +1320,9 @@ div.spotify-player iframe{
 
 
 
+.textBG-content.blog-content {
+	max-width: 850px;
+}
 
 .blog-content .blog-image {
 	max-height: 600px;

@@ -10,7 +10,7 @@ I’m writing this in what feels like my first quiet moment all year. I am once 
 
 After returning from China at the end of last year, I launched straight into two projects. The first, another beautiful collaboration with Alayna, and the second, the final phase of what feels like the most ambitious project of my life.
 
-![Alayne performing at Parachute Studios, viewed from the studio control room](/images/blog/alayna/alayna-live-parachute.jpg)
+![Alayna performing at Parachute Studios, viewed from the studio control room](/images/blog/alayna/alayna-live-parachute.jpg)
 
 ## Alayna – Live at Parachute Studios
 
