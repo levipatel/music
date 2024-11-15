@@ -36,7 +36,7 @@ After the long drive home that evening, I went straight to the microphone, and f
 
 I didn't leave everything else behind though. The piano still sits front and centre, and the strings were performed by an incredible group of 8 players. It was the largest string section I've ever worked with, and the magic we captured was worth it all.
 
-Honestly, I’ve never been more nervous to share anything with you, and never felt more exposed, but it's also never felt so rewarding. I hope you enjoy the song.
+Honestly, I’ve never been more nervous to share anything with you, or felt more exposed, but it's also never felt so rewarding. I hope you enjoy the song.
 
 <a class="button blog-button" href="/release/gravity">Listen to Gravity</a>
 
