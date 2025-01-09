@@ -55,5 +55,3 @@ My leaves will unfold
 心怀远方  
 假以时日  
 我的叶子会展开  
-
-_-中文翻译 Tony_
