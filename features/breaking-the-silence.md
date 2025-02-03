@@ -36,7 +36,7 @@ As an outside observer of Levi’s work, this progression seemed much more natur
 But for Levi, this new album, fittingly titled _Sailing on the Light of a Passing Star_, seems other-wordly.
 
 <p align="center">
-  <img src="/images/releases/sotloaps.jpg" alt="Sailing on the Light of a Passing Star album cover,
+  <img src="/images/releases/sotloaps/sotloaps.jpg" alt="Sailing on the Light of a Passing Star album cover,
   Levi Patel standing on a hilltop facing sideways, with a starry night sky behind him, and a small plane with a trail superimposed across the image" class="blog-image">
 </p>
 

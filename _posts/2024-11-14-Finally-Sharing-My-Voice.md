@@ -12,7 +12,7 @@ And along the way, something less life changing but even less imaginable – I a
 
 <p align="center">
   <a href="/release/gravity">
-    <img src="/images/releases/gravity.jpg" 
+    <img src="/images/releases/sotloaps/gravity.jpg" 
     alt="Levi Patel - Gravity cover artwork. Levi standing in profile against night sky, blurred from motion" class="blog-image">
   </a>
 </p>
