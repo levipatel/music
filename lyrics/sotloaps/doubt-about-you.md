@@ -1,6 +1,6 @@
 ---
 layout: lyrics
-title: Doubt About You
+title: Levi Patel - Doubt About You - Song Lyrics
 categories: [lyrics]
 tags: [Interview]
 date: 2025/02/04
@@ -9,6 +9,8 @@ preview:
 # Add two spaces after each line for correct line breaks
 
 ---
+
+## Doubt About You
 
 When she moved on she told me  
 You'll know when it's right  

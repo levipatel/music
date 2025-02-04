@@ -1,11 +1,13 @@
 ---
 layout: lyrics
-title: Stay Still
+title: Levi Patel - Stay Still - Song Lyrics
 categories: [lyrics]
 tags: [Interview]
 date: 2025/01/09
 preview: 
 ---
+
+## Stay Still
 
 Lost on my own  
 Without all I know  
