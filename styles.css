@@ -1053,6 +1053,16 @@ ul.release-tracklist {
 	margin: 30px auto;
 }
 
+.release-credits {
+	text-align: left;
+	max-width: 570px;
+ 	margin: 0 auto;
+}
+
+.release-credits-title {
+	text-align: center;
+}
+
 
 /* Simple Sharing Buttons social media sharing icons, primarily for Blog */
 ul.share-buttons{
