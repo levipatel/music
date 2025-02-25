@@ -2,7 +2,7 @@
 layout: lyrics
 title: Levi Patel - Doubt About You - Song Lyrics
 categories: [lyrics]
-tags: [Interview]
+tags: [Lyrics]
 date: 2025/02/04
 preview: 
 
@@ -68,3 +68,7 @@ That I spent my chances on you
 
 我已经知道  
 我为你花尽所有机会  
+
+<br>
+
+_Translation by Wensu SkeletonHeart

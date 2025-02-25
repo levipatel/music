@@ -2,7 +2,7 @@
 layout: lyrics
 title: Levi Patel - Stay Still - Song Lyrics
 categories: [lyrics]
-tags: [Interview]
+tags: [Lyrics]
 date: 2025/01/09
 preview: 
 ---
@@ -57,3 +57,7 @@ My leaves will unfold
 心怀远方  
 假以时日  
 我的叶子会展开  
+
+<br>
+
+_Translation by Tony
