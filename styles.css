@@ -1066,6 +1066,21 @@ ul.release-tracklist {
 }
 
 
+/* Two column release link layout on desktop */
+@media only screen and (min-width: 814px) {
+	.release-links {
+		display: flex;
+		flex-wrap: wrap;
+		max-width: 726px;
+	}
+	
+	ul.release-links li {
+		width: 50%;
+	}
+}
+
+
+
 /* Simple Sharing Buttons social media sharing icons, primarily for Blog */
 ul.share-buttons{
   list-style: none;
