@@ -1053,13 +1053,15 @@ ul.release-tracklist {
 	margin: 30px auto;
 }
 
-.release-credits {
+.release-content {
 	text-align: left;
 	max-width: 570px;
- 	margin: 0 auto;
+ 	margin-left: auto;
+ 	margin-right: auto;
+	margin-bottom: 40px;
 }
 
-.release-credits-title {
+.release-content-title {
 	text-align: center;
 }
 
