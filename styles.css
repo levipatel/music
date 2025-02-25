@@ -778,11 +778,11 @@ a.header-button {
 	margin: 0 auto;
 }
 
-.music-discography .bandcamp-tile {
+.bandcamp-tile {
 	margin: 6%;
 }
 
-.music-discography .bandcamp-tile iframe {
+.bandcamp-tile iframe {
 	border: 0;
 	width: 230px;
 	height: 230px;
@@ -1401,11 +1401,11 @@ div.spotify-player iframe{
 		font-size: 2em;
 	}
 
-	.music-discography .bandcamp-tile {
+	.bandcamp-tile {
 		margin: 30px;
 	}
 
-	.music-discography .bandcamp-tile iframe {
+	.bandcamp-tile iframe {
 		width: 300px;
 		height: 300px;
 	}
@@ -1511,7 +1511,7 @@ div.spotify-player iframe{
 		padding-bottom: 50px;
 	}
 
-	.music-discography .bandcamp-tile iframe {
+	.bandcamp-tile iframe {
 		width: 340px;
 		height: 340px;
 	}
@@ -1579,7 +1579,7 @@ div.spotify-player iframe{
 		margin: 0 1.1rem;
 	}
 
-	.music-discography .bandcamp-tile iframe {
+	.bandcamp-tile iframe {
 		width: 350px;
 		height: 350px;
 	}
