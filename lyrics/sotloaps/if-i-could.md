@@ -42,7 +42,7 @@ I need you
 You know I want to  
 I need you  
 
-I could come down to Earth  
+I could come down to earth  
 Connect with the real world  
   
 <br>
