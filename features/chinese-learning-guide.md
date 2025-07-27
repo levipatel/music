@@ -20,6 +20,7 @@ After that many encounters, when we see/hear a word we've learned in real conver
 The most efficient way to do that is to use a lot of "comprehensible input", or what I think of as curated home immersion. That just means reading, watching, or listening to language that is easy enough that we can understand the meaning of it, even if we don't know 100% of the words. If what we're consuming is too difficult, it will just go over our heads and not be helpful, but with materials at the right level, you can relatively comfortably enjoy media while making a lot of progress. And because we're following a story (e.g. reading a novel), our brains actually want to find out what happens next, and understanding the language becomes an essential skill.
 
 - As a side note, some people want to only learn to spoken language, rather than face the characters, but I actually think learning to read is essential. Because so many of the words have the same sound, without knowledge of characters they would be very difficult to remember beyond very basic, phrase-book style interactions. Plus it's an unbelievable feeling to look at a page of characters and getting meaning from it. You can do it!
+  - Don't worry about learning to write anything by hand unless you really want to for some reason, it's much faster just to learn to read and type.
 
 I feel like the start is the most brutal, just to be a little realistic for a moment! But it's totally possible to learn, and gets easier and more inspiring as you go. 
 
@@ -64,6 +65,7 @@ There are a _lot_ of characters, but there's also a system. Each word is made up
 
 But don't worry too much about that, just focus on learning words and you'll start to see the patterns.
 
+
 ### App: HelloChinese
 
 - Like Duolingo but purpose built for Mandarin Chinese, so just generally better. There's a free version that goes quite far so just use that until you hit the limit. I also found it worth paying to finish the course, especially since it goes on sale.
@@ -80,7 +82,7 @@ I recommended having two flashcard decks:
   1. Download a premade deck of the most common words for you to gradually learn. Every day, learn a couple of new words every day (or whatever suits your pace) and review the previous words it wants you to review.
   2. Also have your own custom deck of words you encounter. If you want to remember it, add it to your deck, and then review regularly as it recommends. Don't feel like you need to add too many, just if something interests you.
 
-Be careful not to add too many new words, just go at a comfortable pace.
+Be careful not to add too many new words in general, just go at a comfortable pace.
 
 _Anki_ is free on most platforms, but if you want a free alternative on iOS, _TOFU Learn_ is also good.
 
@@ -103,10 +105,12 @@ Once you know enough words (around 300), then you can continue with these apps, 
   <img src="/images/blog/liuzhou/liuzhou-sunset.jpg" alt="Sunset over the river and city of Liuzhou, China" width="600">
 </p>
 
+
 ## 3. Curated Home Immersion
 Once you know some vocabulary, you can start properly enjoying the most powerful part of the process - getting a lot of comprehensible input. The more you encounter Chinese that you understand, the more you'll naturally pick up, and the more automatic your brain will become at processing it.
 
 I'll explain the different kinds of media below, and recommend particular books, shows, etc.
+
 
 ### 3.1 Graded Readers
 My most valuable secret weapon for learning. These are short novels written for adult learners, but with extremely limited vocabulary.
@@ -160,15 +164,22 @@ Short discussions about current culture and events related to China. She speaks 
 
 (more coming soon)
 
-### 3.4 Youtube Channels
-(coming soon)
 
+### 3.4 Youtube Channels
+
+I never got into the habit of using these, but there are lots of comprehensible input youtube channels, or people making very simple vlogs for learners to watch. Having visuals helps make it easier to understand, so these are probably really useful.
 
 
 
 ## 0. Bonus Resources
 
 If you want some more community, I'm part of an incredible Discord server called _Heavenly Path_. Please let me know if you'd like to check it out, and I should be able to find an invitation link.
+
+<!-- #### Pleco Addons -->
+
+<!-- #### Resources About Learning Chinese -->
+
+
 
 
 <p align="center">
