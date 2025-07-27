@@ -70,6 +70,8 @@ But don't worry too much about that, just focus on learning words and you'll sta
 
 - Make sure you turn off pinyin and only have the characters showing. It will seem impossible at first, but it forces you to start reading characters instead of always relying on the pinyin, and will actually be easier long term.
 
+- Unlike the neverending torment of Duolingo, once you finish the course, you'll be ready to break free from the app. I kept doing the reviews for a while but eventually felt comfortable letting it go.
+
 
 ### App: Anki 
 - A flashcard app for daily review to help you remember vocabulary. It uses spaced repetition, meaning it tests you more often on words you're likely to forget, and less often on words you've already mastered, based on your previous performance.
@@ -106,38 +108,68 @@ Once you know some vocabulary, you can start properly enjoying the most powerful
 
 I'll explain the different kinds of media below, and recommend particular books, shows, etc.
 
-### Graded Readers
+### 3.1 Graded Readers
 My most valuable secret weapon for learning. These are short novels written for adult learners, but with extremely limited vocabulary.
 
 I recommend reading on an ebook so you can use the inbuilt dictionary, or reading on your phone through the _Pleco_ app. Then you can look up words you don't know, and you'll find that after a few times encountering the same word you'll naturally learn it. When choosing a book, make sure you understand at least 90% of the words, otherwise it's just painful and slow, and you'd be better returning to it later. 
+
+- **Mandarin Companion (best starting point)**
 
 The best curated graded readers for the early stages are by Mandarin Companion, especially their [Breakthrough Level Books](https://mandarincompanion.com/products-cat/breakthrough/). Don't expect a masterpiece of literature, but the stories are all fine. Choose one of these as your first book, then come back to me when you're ready to celebrate the epic achievement of finishing one.
 
 First work through their levels of books, and then I can suggest what to read next.
 
-Many of these also come in audiobook form, which is helpful for listening practice, even if you've read the book before.
 
-### Audio Books and Podcasts
-(coming soon)
+- **Journey to the West**
 
-**App: DuChinese**
+All I knew before reading this was that it was one of China's four great classics of literature. They didn't mention the monkeys.
 
-(coming soon)
+This is an epic graded reader by Imagin8 Press, and the source of my greatest progress — [Journey to the West in simple Chinese](https://imagin8press.com/books/the-journey-to-the-west-in-easy-chinese-paperback-edition/).
 
-### Podcasts
-(coming soon)
+Almost 800 pages long, it begins using only 500 different words, and by the end uses over 2000, gradually introducing them throughout the chapters with excellent pacing. It's long, but steady, and when you make it to the end you'll definitely be able to have some decent conversations.
 
-### Youtube Channels
+Every Chinese person knows this story, so you'll also start picking up on some references once you've read it.
+
+
+- **Chinese Breeze**
+
+I found these stories and grading a little less consistent, but if you feel you need some more practice before moving from _Mandarin Companion_ to _Journey to the West_, you can try some books from [Chinese Breeze](https://www.gradedchinesereaders.com/chinese-breeze).
+
+
+
+### 3.2 Audiobooks
+
+- **Graded Reader Audiobooks**
+
+Many of the graded readers above also come in audiobook form, which is helpful for listening practice, even if you've read the book before. _Mandarin Companion_ have many of their books in audiobook form, and there's an audio version of _Journey to the West_ with some incredibly enthusiastic, slightly unhinged voice acting.
+
+- **App: DuChinese**
+
+_DuChinese_ is an app based around short graded stories, mostly aimed at reading practice. But because it's difficult to find beginner level listening material, I recommend listening to these stories instead. There are some free stories you can try out, but most require a paid subscription. This app also goes on sale regularly.
+
+Some of the early stories aren't that interesting, but later on they have simple versions of some classics like _Romance of the Three Kingdoms_ that I really enjoyed.
+
+
+### 3.3 Podcasts
+
+The best podcasts for you will be almost entirely in Chinese, and use vocabulary that suits your level. It will take some time before these are accessible, before then it might be best to stick with the audiobook versions of graded readers.
+
+- **MaoMi Chinese**
+
+Short discussions about current culture and events related to China. She speaks super clearly, and they're engaging topics.
+
+(more coming soon)
+
+### 3.4 Youtube Channels
 (coming soon)
 
 
 
 
 ## 0. Bonus Resources
-(coming soon)
-<!-- **Heavenly Path** -->
 
-<!-- <p><i>{{ page.date | date_to_string }}</i></p> -->
+If you want some more community, I'm part of an incredible Discord server called _Heavenly Path_. Please let me know if you'd like to check it out, and I should be able to find an invitation link.
+
 
 <p align="center">
   <img src="/images/press/LeviPatel-2.jpg" alt="Levi Patel walking into sunset on hilltop" class="blog-image">
