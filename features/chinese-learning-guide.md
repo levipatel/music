@@ -113,23 +113,28 @@ I recommend reading on an ebook so you can use the inbuilt dictionary, or readin
 
 The best curated graded readers for the early stages are by Mandarin Companion, especially their [Breakthrough Level Books](https://mandarincompanion.com/products-cat/breakthrough/). Don't expect a masterpiece of literature, but the stories are all fine. Choose one of these as your first book, then come back to me when you're ready to celebrate the epic achievement of finishing one.
 
+First work through their levels of books, and then I can suggest what to read next.
+
 Many of these also come in audiobook form, which is helpful for listening practice, even if you've read the book before.
 
 ### Audio Books and Podcasts
+(coming soon)
 
 **App: DuChinese**
 
-### Podcasts
+(coming soon)
 
+### Podcasts
+(coming soon)
 
 ### Youtube Channels
-
+(coming soon)
 
 
 
 
 ## 0. Bonus Resources
-
+(coming soon)
 <!-- **Heavenly Path** -->
 
 <!-- <p><i>{{ page.date | date_to_string }}</i></p> -->
