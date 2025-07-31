@@ -7,7 +7,14 @@ date: 2025/07/27
 preview: My resources and philosophy for learning Mandarin Chinese
 ---
 
-(This page is a work in progress)
+Hello, my name is Levi Patel. I love to create <a href="/music">beautiful music</a> in New Zealand, combining intimate guitar 
+and piano composition with richly harmonic strings and delicate melodies. And after a wonderful and completely unexpected journey with learning Mandarin over the past three years, I now also work in China as <span class="chinese-body">林外</span>.
+
+<p align="center">
+  <img src="/images/blog/liuzhou/luosifen-mountain.jpg" alt="Levi Patel singing on a mountain ridge during a pink and purple sunset
+  in the Guangxi region of China, without countless karst mountains in the distance" class="blog-image" width="600">
+</p>
+
 
 ## Learning Philosophy
 
@@ -33,12 +40,10 @@ So I recommend approaching it in this order:
 3. Immerse at home through reading and listening to stories and conversation using vocabulary at your level. (Also continue learning words, and interact with people.)
 
 
-
 <p align="center">
-  <img src="{{ site.baseurl }}/images/blog/liuzhou/bridge-in-gong-yuan.jpg" alt="Traditional style bridge crossing river among steep, lush mountains" class="blog-image" width="600">
+  <img src="/images/blog/liuzhou/sanyuesan-singing-in-crowd.jpg" alt="Singing folk songs in a group of 
+  people dressed in traditional clothing during the Sanyuesan festival in Liuzhou" class="blog-image" width="600">
 </p>
-
-
 
 
 ## 1. Pinyin, Tones, and Pronunciation
@@ -52,9 +57,13 @@ You can then test yourself with this [Pinyin Chart](https://yoyochinese.com/chin
 
 This was definitely the least interesting part for me, but keep practicing until you're somewhat confident (I think I spent a few weeks chipping away at it), and it will pay off when you move on to phase 2.
 
+
 <p align="center">
-  <img src="/images/blog/liuzhou/outskirts-from-panlongshan.jpg" alt="" class="blog-image" width="600">
+  <img src="/images/blog/liuzhou/bridge-in-gong-yuan.jpg" alt="Traditional style bridge crossing river among steep, lush mountains" class="blog-image" width="600">
 </p>
+
+
+
 
 
 ## 2. Basic Vocabulary and Grammar
@@ -102,8 +111,10 @@ You can also browse grammar points if you're interested, but generally I would s
 Once you know enough words (around 300), then you can continue with these apps, but also start phase 3, where the real fun begins.
 
 <p align="center">
-  <img src="/images/blog/liuzhou/liuzhou-sunset.jpg" alt="Sunset over the river and city of Liuzhou, China" width="600">
+  <img src="/images/blog/liuzhou/outskirts-from-panlongshan.jpg" alt="" class="blog-image" width="600">
 </p>
+
+
 
 
 ## 3. Curated Home Immersion
@@ -115,7 +126,8 @@ I'll explain the different kinds of media below, and recommend particular books,
 ### 3.1 Graded Readers
 My most valuable secret weapon for learning. These are short novels written for adult learners, but with extremely limited vocabulary.
 
-I recommend reading on an ebook so you can use the inbuilt dictionary, or reading on your phone through the _Pleco_ app. Then you can look up words you don't know, and you'll find that after a few times encountering the same word you'll naturally learn it. When choosing a book, make sure you understand at least 90% of the words, otherwise it's just painful and slow, and you'd be better returning to it later. 
+I recommend reading on an ebook so you can use the inbuilt dictionary, or reading on your phone through the _Pleco_ app. Then you can look up words you don't know, and you'll find that after a few times encountering the same word you'll naturally learn it. When choosing a book, make sure you understand at least 90% of the words, otherwise it's just painful and slow, and you'd be better returning to it later.
+
 
 - **Mandarin Companion (best starting point)**
 
@@ -130,14 +142,19 @@ All I knew before reading this was that it was one of China's four great classic
 
 This is an epic graded reader by Imagin8 Press, and the source of my greatest progress — [Journey to the West in simple Chinese](https://imagin8press.com/books/the-journey-to-the-west-in-easy-chinese-paperback-edition/).
 
-Almost 800 pages long, it begins using only 500 different words, and by the end uses over 2000, gradually introducing them throughout the chapters with excellent pacing. It's long, but steady, and when you make it to the end you'll definitely be able to have some decent conversations.
+Almost 800 pages long, it begins using only 500 different words, and by the end uses over 2000, gradually introducing them throughout the chapters with excellent pacing. It's long but steady, and when you make it to the end you'll definitely be able to have some decent conversations. It also did wonders for my reading and listening speed, despite the vocabulary getting more difficult throughout the book.
+
+<p align="center">
+  <img src="/images/blog/chinese/jttw-progress-graph.png" alt="" class="blog-image" width="600">
+</p>
 
 Every Chinese person knows this story, so you'll also start picking up on some references once you've read it.
 
 
+
 - **Chinese Breeze**
 
-I found these stories and grading a little less consistent, but if you feel you need some more practice before moving from _Mandarin Companion_ to _Journey to the West_, you can try some books from [Chinese Breeze](https://www.gradedchinesereaders.com/chinese-breeze).
+I found their stories and grading a little less consistent, but if you feel you need some more practice before moving from _Mandarin Companion_ to _Journey to the West_, you can try some books from [Chinese Breeze](https://www.gradedchinesereaders.com/chinese-breeze).
 
 
 
@@ -169,6 +186,9 @@ Short discussions about current culture and events related to China. She speaks 
 
 I never got into the habit of using these, but there are lots of comprehensible input youtube channels, or people making very simple vlogs for learners to watch. Having visuals helps make it easier to understand, so these are probably really useful.
 
+<p align="center">
+  <img src="/images/blog/liuzhou/liuzhou-sunset.jpg" alt="Sunset over the river and city of Liuzhou, China" width="600">
+</p>
 
 
 ## 0. Bonus Resources
@@ -177,11 +197,22 @@ If you want some more community, I'm part of an incredible Discord server called
 
 <!-- #### Pleco Addons -->
 
-<!-- #### Resources About Learning Chinese -->
+<!-- #### Meta Resources About Learning Chinese -->
+
+And finally, if you're interested in my music, you can listen to one of my songs here. It won't help you learn Chinese, but I hope you enjoy it.
+
+<div class="videoWrapper">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Etu79_Az-iQ?si=u_aFdkNy-qFjEy1O" 
+  title="YouTube video player: Gravity by Levi Patel official music video" 
+  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+  
 
 
 
 
-<p align="center">
+
+
+<!-- <p align="center">
   <img src="/images/press/LeviPatel-2.jpg" alt="Levi Patel walking into sunset on hilltop" class="blog-image">
-</p>
+</p> -->
