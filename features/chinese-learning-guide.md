@@ -8,7 +8,7 @@ preview: My resources and philosophy for learning Mandarin Chinese
 ---
 
 Hello, my name is Levi Patel. I love to create <a href="/music">beautiful music</a> in New Zealand, combining intimate guitar 
-and piano composition with richly harmonic strings and delicate melodies. And after a wonderful and completely unexpected journey with learning Mandarin over the past three years, I now also work in China as <span class="chinese-body">林外</span>.
+and piano composition with richly harmonic strings and delicate melodies. And after a wonderful and completely unimaginable journey with learning Mandarin over the past three years, I now also work in China as <span class="chinese-body">林外</span>.
 
 <p align="center">
   <img src="/images/blog/liuzhou/luosifen-mountain.jpg" alt="Levi Patel singing on a mountain ridge during a pink and purple sunset
@@ -154,7 +154,7 @@ Every Chinese person knows this story, so you'll also start picking up on some r
 
 - **Chinese Breeze**
 
-I found their stories and grading a little less consistent, but if you feel you need some more practice before moving from _Mandarin Companion_ to _Journey to the West_, you can try some books from [Chinese Breeze](https://www.gradedchinesereaders.com/chinese-breeze).
+I found their stories and grading a little less consistent, but if you feel you need some more practice before moving from _Mandarin Companion_ to _Journey to the West_, you can try some books from [Chinese Breeze](https://www.gradedchinesereaders.com/chinese-breeze). They helped me make the transition.
 
 
 
@@ -197,7 +197,11 @@ If you want some more community, I'm part of an incredible Discord server called
 
 <!-- #### Pleco Addons -->
 
+<!-- ** Outlier Dictionary -->
+
+
 <!-- #### Meta Resources About Learning Chinese -->
+
 
 And finally, if you're interested in my music, you can listen to one of my songs here. It won't help you learn Chinese, but I hope you enjoy it.
 
