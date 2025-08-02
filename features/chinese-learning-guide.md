@@ -110,7 +110,7 @@ It also has lots of addons that will probably be helpful later, but they aren't 
 If you want to look up any grammar, this is the only site you'll need -
 [Chinese Grammar Wiki](https://resources.allsetlearning.com/chinese/grammar/)
 
-You can also browse grammar points if you're interested, but generally I would suggest just looking things up as you get confused, rather than studying grammar deliberately.
+You can also browse grammar points if you're interested, but generally I would suggest just looking things up as you get confused, rather than studying grammar deliberately. 
   
 Once you know enough words (around 300), then you can continue with these apps, but also start phase 3, where the real fun begins.
 
