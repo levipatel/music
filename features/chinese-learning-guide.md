@@ -7,7 +7,7 @@ date: 2025/07/27
 preview: My resources and philosophy for learning Mandarin Chinese
 ---
 
-Hello, my name is Levi Patel. I love to create <a href="/music">beautiful music</a> in New Zealand, combining intimate guitar 
+Hello, my name is Levi Patel. I love to create beautiful music in New Zealand, combining intimate guitar 
 and piano composition with richly harmonic strings and delicate melodies. And after a wonderful and completely unimaginable journey with learning Mandarin over the past three years, I now also work in China as <span class="chinese-body">林外</span>.
 
 <p align="center">
