@@ -29,9 +29,15 @@ The most efficient way to do that is to use a lot of "comprehensible input", or 
 - As a side note, some people want to only learn to spoken language, rather than face the characters, but I actually think learning to read is essential. Because so many of the words have the same sound, without knowledge of characters they would be very difficult to remember beyond very basic, phrase-book style interactions. Plus it's an unbelievable feeling to look at a page of characters and getting meaning from it. You can do it!
   - Don't worry about learning to write anything by hand unless you really want to for some reason, it's much faster just to learn to read and type.
 
-I feel like the start is the most brutal, just to be a little realistic for a moment! But it's totally possible to learn, and gets easier and more inspiring as you go. 
+<p align="center">
+  <img src="/images/blog/liuzhou/bridge-in-gong-yuan.jpg" alt="Traditional style bridge crossing river among steep, lush mountains" class="blog-image" width="600">
+</p>
 
-With this philosophy in mind, the first major goal is to build a good enough foundation of vocabulary and grammar that you can start immersing in the easiest available comprehensible Chinese content (around 300 word vocabulary).
+## The Path Ahead
+
+I feel like the start is the most brutal, just to be a little realistic for a moment! But it's totally possible to learn Mandarin, and it gets easier and more inspiring as you go. 
+
+With this learning philosophy in mind, the first major goal is to build a good enough foundation of vocabulary and grammar that you can start immersing in the easiest available comprehensible Chinese content. You'll need around a **300 word vocabulary** to cross that threshold.
 
 So I recommend approaching it in this order:
 
@@ -59,10 +65,8 @@ This was definitely the least interesting part for me, but keep practicing until
 
 
 <p align="center">
-  <img src="/images/blog/liuzhou/bridge-in-gong-yuan.jpg" alt="Traditional style bridge crossing river among steep, lush mountains" class="blog-image" width="600">
+  <img src="/images/blog/liuzhou/sports-field.jpg" alt="A school and sports field nestled among numerous karst mountains, viewed from a nearby mountaintop in Liuzhou, China" class="blog-image" width="600">
 </p>
-
-
 
 
 
@@ -99,7 +103,7 @@ _Anki_ is free on most platforms, but if you want a free alternative on iOS, _TO
 ### App: Pleco
 I never thought I could be so passionate about a dictionary, but this is my all time favourite app. You can search easily, the definitions and examples are great, it's just a good dictionary I guess.
 
-It also has lots of addons that might be helpful later, but you don't need them.
+It also has lots of addons that will probably be helpful later, but they aren't necessary.
 
 
 ### Website: Chinese Grammar Wiki
