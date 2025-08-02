@@ -26,7 +26,7 @@ After that many encounters, when we see/hear a word we've learned in real conver
 
 The most efficient way to do that is to use a lot of "comprehensible input", or what I think of as curated home immersion. That just means reading, watching, or listening to language that is easy enough that we can understand the meaning of it, even if we don't know 100% of the words. If what we're consuming is too difficult, it will just go over our heads and not be helpful, but with materials at the right level, you can relatively comfortably enjoy media while making a lot of progress. And because we're following a story (e.g. reading a novel), our brains actually want to find out what happens next, and understanding the language becomes an essential skill.
 
-- As a side note, some people want to only learn to spoken language, rather than face the characters, but I actually think learning to read is essential. Because so many of the words have the same sound, without knowledge of characters they would be very difficult to remember beyond very basic, phrase-book style interactions. Plus it's an unbelievable feeling to look at a page of characters and getting meaning from it. You can do it!
+Some people only want to learn the spoken language, rather than face the characters, but I actually think learning to read is essential. Because so many of the words have the same sound, without knowledge of characters they would be very difficult to remember beyond very basic, phrase-book style interactions. Plus it's an unbelievable feeling to look at a page of characters and getting meaning from it. You can do it!
   - Don't worry about learning to write anything by hand unless you really want to for some reason, it's much faster just to learn to read and type.
 
 <p align="center">
@@ -111,6 +111,8 @@ If you want to look up any grammar, this is the only site you'll need -
 [Chinese Grammar Wiki](https://resources.allsetlearning.com/chinese/grammar/)
 
 You can also browse grammar points if you're interested, but generally I would suggest just looking things up as you get confused, rather than studying grammar deliberately. 
+
+**Next Steps**
   
 Once you know enough words (around 300), then you can continue with these apps, but also start phase 3, where the real fun begins.
 
@@ -172,12 +174,12 @@ Many of the graded readers above also come in audiobook form, which is helpful f
 
 _DuChinese_ is an app based around short graded stories, mostly aimed at reading practice. But because it's difficult to find beginner level listening material, I recommend listening to these stories instead. There are some free stories you can try out, but most require a paid subscription. This app also goes on sale regularly.
 
-Some of the early stories aren't that interesting, but later on they have simple versions of some classics like _Romance of the Three Kingdoms_ that I really enjoyed.
+Some of the early stories aren't that interesting, but later on they have simple versions of some classics like _Romance of the Three Kingdoms_ that I really enjoyed. The levels are well curated too.
 
 
 ### 3.3 Podcasts
 
-The best podcasts for you will be almost entirely in Chinese, and use vocabulary that suits your level. It will take some time before these are accessible, before then it might be best to stick with the audiobook versions of graded readers.
+The best podcasts for you will be almost entirely in Chinese, rather than explaining things in English, and they will use vocabulary that suits your level. It will take some time before these are accessible, before then it might be best to stick with the audiobooks recommended above.
 
 - **MaoMi Chinese**
 
