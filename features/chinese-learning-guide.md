@@ -26,7 +26,7 @@ After that many encounters, when we see/hear a word we've learned in real conver
 
 The most efficient way to do that is to use a lot of "comprehensible input", or what I think of as curated home immersion. That just means reading, watching, or listening to language that is easy enough that we can understand the meaning of it, even if we don't know 100% of the words. If what we're consuming is too difficult, it will just go over our heads and not be helpful, but with materials at the right level, you can relatively comfortably enjoy media while making a lot of progress. And because we're following a story (e.g. reading a novel), our brains actually want to find out what happens next, and understanding the language becomes an essential skill.
 
-Some people only want to learn the spoken language, rather than face the characters, but I actually think learning to read is essential. Because so many of the words have the same sound, without knowledge of characters they would be very difficult to remember beyond very basic, phrase-book style interactions. Plus it's an unbelievable feeling to look at a page of characters and getting meaning from it. You can do it!
+Some people only want to learn the spoken language, rather than face the characters, but I actually think learning to read is essential. Because so many words have the same sound, without knowledge of characters they would be very difficult to remember beyond very basic, phrase-book style interactions. Plus it's an unbelievable feeling to look at a page of characters and getting meaning from it. You can do it!
   - Don't worry about learning to write anything by hand unless you really want to for some reason, it's much faster just to learn to read and type.
 
 <p align="center">
@@ -53,7 +53,7 @@ So I recommend approaching it in this order:
 
 
 ## 1. Pinyin, Tones, and Pronunciation
-Pinyin is the system for writing chinese words using the english alphabet. There are far fewer sounds than in English, and the pronunciation is consistent, so once you learn every syllable, and the tones, you'll be able to pronounce any word accurately. Mastering pinyin first will make the next steps much easier.
+Pinyin is the system for writing chinese words using the english alphabet. Mandarin has far fewer sounds than English, and the pronunciation is consistent, so once you learn every syllable, and the tones, you'll be able to pronounce any word accurately. Mastering pinyin first will make the next steps much easier.
 
 I learned using the Yoyo Chinese [Pinyin Lesson Series](https://www.youtube.com/@YoyoChinese/search?query=pinyin) on YouTube. It's slow and I felt like I was in school, but it's very clear. Some people also recommend the pronunciation series from [Grace Mandarin Chinese](https://www.youtube.com/watch?v=n_Cj3aOSI1w&list=PLwFUKjRMEUxw2IRsDA8GZGW1AZdgCoiAA), but I haven't tried them.
 
