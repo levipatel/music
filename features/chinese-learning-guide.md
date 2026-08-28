@@ -8,11 +8,10 @@ preview: My resources and philosophy for learning Mandarin Chinese
 ---
 
 Hello, my name is Levi Patel. I love to create beautiful music in New Zealand, combining intimate guitar 
-and piano composition with richly harmonic strings and delicate melodies. And after a wonderful and completely unimaginable journey with learning Mandarin over the past three years, I now also work in China as <span class="chinese-body">林外</span>.
+and piano composition with richly harmonic strings and delicate melodies. And after a wonderful and completely unimaginable journey with learning Mandarin over the past three years, I now also create in China as <span class="chinese-body">林外</span>.
 
 <p align="center">
-  <img src="/images/blog/liuzhou/luosifen-mountain.jpg" alt="Levi Patel singing on a mountain ridge during a pink and purple sunset
-  in the Guangxi region of China, without countless karst mountains in the distance" class="blog-image" width="600">
+  <img src="/images/press/LeviPatel-7.jpg" alt="Levi Patel portrait, side profile in his recording studio" class="blog-image" width="600">
 </p>
 
 
@@ -47,8 +46,7 @@ So I recommend approaching it in this order:
 
 
 <p align="center">
-  <img src="/images/blog/liuzhou/sanyuesan-singing-in-crowd.jpg" alt="Singing folk songs in a group of 
-  people dressed in traditional clothing during the Sanyuesan festival in Liuzhou" class="blog-image" width="600">
+  <img src="/images/blog/china/yunnan-village.jpg" alt="A village beside a lake among mountains at dusk in Yunnan, China" class="blog-image" width="600">
 </p>
 
 
