@@ -197,11 +197,13 @@ I never got into the habit of using these, but there are lots of comprehensible 
 
 ## 0. Bonus Resources
 
-If you want some more community, I'm part of an incredible Discord server called _Heavenly Path_. Please let me know if you'd like to check it out, and I should be able to find an invitation link.
+If you want some more community, I'm part of an incredible Discord server. Please let me know if you'd like to check it out, and I should be able to find an invitation link.
 
 <!-- #### Pleco Addons -->
 
 <!-- ** Outlier Dictionary -->
+
+<!-- Dictionaries (e.g. Key)>
 
 
 <!-- #### Meta Resources About Learning Chinese -->
